@@ -1,0 +1,7 @@
+setting,condition,construction,asr_pp,responses
+irrelevant,C06,Claim-Evidence,87.138889,7200
+irrelevant,C42,CorruptRAG-AS,79.944444,7200
+irrelevant,C00,PoisonedRAG,68.847222,7200
+answer_bearing,C06,Claim-Evidence,36.527778,7200
+answer_bearing,C42,CorruptRAG-AS,35.416667,7200
+answer_bearing,C00,PoisonedRAG,14.166667,7200

@@ -1,0 +1,19 @@
+\begin{table}[!htbp]
+\centering
+\caption{Fields read by the frozen document-construction step.}
+\label{tab:apx_construction_inputs}
+\begingroup\fontsize{9}{10.8}\selectfont
+\setlength{\tabcolsep}{4.0pt}
+\renewcommand{\arraystretch}{1.13}
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+Construction & Question & Target answer & Correct answer & Base passage \\
+\midrule
+PoisonedRAG & Yes & No & No & Yes \\
+Claim--Evidence & Yes & Yes & No & Yes \\
+CorruptRAG-AS & Yes & Yes & Yes & No \\
+\bottomrule
+\end{tabular}
+\endgroup
+\par\vspace{4pt}\begin{minipage}{\linewidth}\footnotesize PoisonedRAG concatenates the question and a released target-conditioned base passage; it does not separately read the target-answer field in this step. Claim--Evidence uses the same base passage and explicitly inserts the target answer. CorruptRAG-AS uses the labeled correct answer directly. This table does not describe upstream passage generation.\end{minipage}
+\end{table}

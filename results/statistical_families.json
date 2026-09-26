@@ -1,0 +1,341 @@
+{
+  "D4-method": {
+    "items_tested": 10,
+    "simultaneous_critical_value": 2.766811,
+    "n_bootstrap": 10000,
+    "bootstrap_seed": 2026082601,
+    "n_permutations": 100000,
+    "permutation_seed": 2026082602,
+    "items": {
+      "c06_minus_original_k1": {
+        "effect_pp": 22.486111,
+        "pointwise_ci_95_pp": [
+          20.194444,
+          24.791667
+        ],
+        "simultaneous_ci_95_pp": [
+          19.224047,
+          25.748175
+        ],
+        "se_pp": 1.178998,
+        "p_perm": 9.99990000099999e-06,
+        "holm_adjusted_p": 9.999900000999991e-05,
+        "holm_rank_1based": 1,
+        "signflip_status": "evaluable"
+      },
+      "c06_minus_original_k2": {
+        "effect_pp": 26.527778,
+        "pointwise_ci_95_pp": [
+          24.236111,
+          28.916667
+        ],
+        "simultaneous_ci_95_pp": [
+          23.243151,
+          29.812405
+        ],
+        "se_pp": 1.187153,
+        "p_perm": 9.99990000099999e-06,
+        "holm_adjusted_p": 9.999900000999991e-05,
+        "holm_rank_1based": 2,
+        "signflip_status": "evaluable"
+      },
+      "c06_minus_original_k3": {
+        "effect_pp": 21.194444,
+        "pointwise_ci_95_pp": [
+          18.902778,
+          23.458681
+        ],
+        "simultaneous_ci_95_pp": [
+          17.950115,
+          24.438774
+        ],
+        "se_pp": 1.172588,
+        "p_perm": 9.99990000099999e-06,
+        "holm_adjusted_p": 9.999900000999991e-05,
+        "holm_rank_1based": 3,
+        "signflip_status": "evaluable"
+      },
+      "c06_minus_original_k4": {
+        "effect_pp": 10.666667,
+        "pointwise_ci_95_pp": [
+          8.625,
+          12.791667
+        ],
+        "simultaneous_ci_95_pp": [
+          7.714806,
+          13.618527
+        ],
+        "se_pp": 1.066882,
+        "p_perm": 9.99990000099999e-06,
+        "holm_adjusted_p": 9.999900000999991e-05,
+        "holm_rank_1based": 4,
+        "signflip_status": "evaluable"
+      },
+      "c06_minus_original_k5": {
+        "effect_pp": 1.388889,
+        "pointwise_ci_95_pp": [
+          0.513889,
+          2.347569
+        ],
+        "simultaneous_ci_95_pp": [
+          0.07601,
+          2.701768
+        ],
+        "se_pp": 0.47451,
+        "p_perm": 0.0025999740002599974,
+        "holm_adjusted_p": 0.0025999740002599974,
+        "holm_rank_1based": 10,
+        "signflip_status": "evaluable"
+      }
+    },
+    "holm_order": [
+      "c06_minus_original_k1",
+      "c06_minus_original_k2",
+      "c06_minus_original_k3",
+      "c06_minus_original_k4",
+      "c06_minus_original_k5",
+      "aux_01",
+      "aux_02",
+      "aux_03",
+      "aux_04",
+      "aux_05"
+    ],
+    "auxiliary_p_values": {
+      "aux_01": 9.99990000099999e-06,
+      "aux_02": 9.99990000099999e-06,
+      "aux_03": 9.99990000099999e-06,
+      "aux_04": 9.99990000099999e-06,
+      "aux_05": 9.99990000099999e-06
+    },
+    "calibration_note": "Auxiliary scalar p values preserve the original Holm family. The full-family simultaneous critical value is frozen, not re-estimated from the reduced method set."
+  },
+  "E1-position": {
+    "items_tested": 12,
+    "simultaneous_critical_value": 2.784804,
+    "n_bootstrap": 10000,
+    "bootstrap_seed": 2026082601,
+    "n_permutations": 100000,
+    "permutation_seed": 2026082602,
+    "items": {
+      "position_C06_p3": {
+        "effect_pp": 2.097222,
+        "pointwise_ci_95_pp": [
+          -0.236111,
+          4.430903
+        ],
+        "simultaneous_ci_95_pp": [
+          -1.243003,
+          5.437448
+        ],
+        "se_pp": 1.199447,
+        "p_perm": 0.08419915800841991,
+        "holm_adjusted_p": 0.08419915800841991,
+        "holm_rank_1based": 12,
+        "signflip_status": "evaluable"
+      },
+      "position_C06_p5": {
+        "effect_pp": 25.236111,
+        "pointwise_ci_95_pp": [
+          22.236111,
+          28.236458
+        ],
+        "simultaneous_ci_95_pp": [
+          20.954784,
+          29.517438
+        ],
+        "se_pp": 1.537389,
+        "p_perm": 9.99990000099999e-06,
+        "holm_adjusted_p": 0.00011999880001199988,
+        "holm_rank_1based": 1,
+        "signflip_status": "evaluable"
+      },
+      "position_C42_p3": {
+        "effect_pp": -2.694444,
+        "pointwise_ci_95_pp": [
+          -4.763889,
+          -0.569097
+        ],
+        "simultaneous_ci_95_pp": [
+          -5.682066,
+          0.293177
+        ],
+        "se_pp": 1.07283,
+        "p_perm": 0.012869871301286986,
+        "holm_adjusted_p": 0.03860961390386096,
+        "holm_rank_1based": 10,
+        "signflip_status": "evaluable"
+      },
+      "position_C42_p5": {
+        "effect_pp": 20.333333,
+        "pointwise_ci_95_pp": [
+          17.916667,
+          22.680556
+        ],
+        "simultaneous_ci_95_pp": [
+          16.994338,
+          23.672329
+        ],
+        "se_pp": 1.199006,
+        "p_perm": 9.99990000099999e-06,
+        "holm_adjusted_p": 0.00011999880001199988,
+        "holm_rank_1based": 3,
+        "signflip_status": "evaluable"
+      }
+    },
+    "holm_order": [
+      "position_C06_p3",
+      "position_C06_p5",
+      "aux_01",
+      "aux_02",
+      "position_C42_p3",
+      "position_C42_p5",
+      "aux_03",
+      "aux_04",
+      "aux_05",
+      "aux_06",
+      "aux_07",
+      "aux_08"
+    ],
+    "auxiliary_p_values": {
+      "aux_01": 9.99990000099999e-06,
+      "aux_02": 0.02944970550294497,
+      "aux_03": 9.99990000099999e-06,
+      "aux_04": 9.99990000099999e-06,
+      "aux_05": 9.99990000099999e-06,
+      "aux_06": 9.99990000099999e-06,
+      "aux_07": 9.99990000099999e-06,
+      "aux_08": 9.99990000099999e-06
+    },
+    "calibration_note": "Auxiliary scalar p values preserve the original Holm family. The full-family simultaneous critical value is frozen, not re-estimated from the reduced method set."
+  },
+  "E1-baseline-position": {
+    "items_tested": 2,
+    "simultaneous_critical_value": 2.214301,
+    "n_bootstrap": 10000,
+    "bootstrap_seed": 2026082601,
+    "n_permutations": 100000,
+    "permutation_seed": 2026082602,
+    "items": {
+      "position_C00_p3": {
+        "effect_pp": 0.888889,
+        "pointwise_ci_95_pp": [
+          -0.777778,
+          2.569444
+        ],
+        "simultaneous_ci_95_pp": [
+          -1.018218,
+          2.795996
+        ],
+        "se_pp": 0.861268,
+        "p_perm": 0.2987370126298737,
+        "holm_adjusted_p": 0.2987370126298737,
+        "holm_rank_1based": 2,
+        "signflip_status": "evaluable"
+      },
+      "position_C00_p5": {
+        "effect_pp": 20.666667,
+        "pointwise_ci_95_pp": [
+          18.208333,
+          23.180556
+        ],
+        "simultaneous_ci_95_pp": [
+          17.861111,
+          23.472222
+        ],
+        "se_pp": 1.267017,
+        "p_perm": 9.99990000099999e-06,
+        "holm_adjusted_p": 1.999980000199998e-05,
+        "holm_rank_1based": 1,
+        "signflip_status": "evaluable"
+      }
+    },
+    "holm_order": [
+      "position_C00_p3",
+      "position_C00_p5"
+    ],
+    "auxiliary_p_values": {},
+    "calibration_note": "Auxiliary scalar p values preserve the original Holm family. The full-family simultaneous critical value is frozen, not re-estimated from the reduced method set."
+  },
+  "E3-front-tail": {
+    "items_tested": 4,
+    "simultaneous_critical_value": 2.440962,
+    "n_bootstrap": 10000,
+    "bootstrap_seed": 2026082601,
+    "n_permutations": 100000,
+    "permutation_seed": 2026082602,
+    "items": {
+      "E3_K1_BBBBP_minus_PBBBB": {
+        "effect_pp": 25.625,
+        "pointwise_ci_95_pp": [
+          22.680556,
+          28.638889
+        ],
+        "simultaneous_ci_95_pp": [
+          21.875413,
+          29.374587
+        ],
+        "se_pp": 1.53611,
+        "p_perm": 9.99990000099999e-06,
+        "holm_adjusted_p": 3.999960000399996e-05,
+        "holm_rank_1based": 1,
+        "signflip_status": "evaluable"
+      },
+      "E3_K2_BBBPP_minus_PPBBB": {
+        "effect_pp": 19.513889,
+        "pointwise_ci_95_pp": [
+          16.763889,
+          22.208333
+        ],
+        "simultaneous_ci_95_pp": [
+          16.125,
+          22.902778
+        ],
+        "se_pp": 1.388341,
+        "p_perm": 9.99990000099999e-06,
+        "holm_adjusted_p": 3.999960000399996e-05,
+        "holm_rank_1based": 2,
+        "signflip_status": "evaluable"
+      },
+      "E3_K3_BBPPP_minus_PPPBB": {
+        "effect_pp": 15.388889,
+        "pointwise_ci_95_pp": [
+          13.305556,
+          17.527778
+        ],
+        "simultaneous_ci_95_pp": [
+          12.770085,
+          18.007693
+        ],
+        "se_pp": 1.072857,
+        "p_perm": 9.99990000099999e-06,
+        "holm_adjusted_p": 3.999960000399996e-05,
+        "holm_rank_1based": 3,
+        "signflip_status": "evaluable"
+      },
+      "E3_K4_BPPPP_minus_PPPPB": {
+        "effect_pp": 11.680556,
+        "pointwise_ci_95_pp": [
+          9.819444,
+          13.569444
+        ],
+        "simultaneous_ci_95_pp": [
+          9.332785,
+          14.028326
+        ],
+        "se_pp": 0.961822,
+        "p_perm": 9.99990000099999e-06,
+        "holm_adjusted_p": 3.999960000399996e-05,
+        "holm_rank_1based": 4,
+        "signflip_status": "evaluable"
+      }
+    },
+    "holm_order": [
+      "E3_K1_BBBBP_minus_PBBBB",
+      "E3_K2_BBBPP_minus_PPBBB",
+      "E3_K3_BBPPP_minus_PPPBB",
+      "E3_K4_BPPPP_minus_PPPPB"
+    ],
+    "auxiliary_p_values": {},
+    "calibration_note": "Auxiliary scalar p values preserve the original Holm family. The full-family simultaneous critical value is frozen, not re-estimated from the reduced method set."
+  }
+}

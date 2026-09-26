@@ -1,0 +1,11 @@
+condition,construction,k,asr_pp,responses
+C00,PoisonedRAG,1,14.305556,7200
+C00,PoisonedRAG,2,27.611111,7200
+C00,PoisonedRAG,3,48.305556,7200
+C00,PoisonedRAG,4,69.527778,7200
+C00,PoisonedRAG,5,96.625000,7200
+C06,Claim-Evidence,1,36.791667,7200
+C06,Claim-Evidence,2,54.138889,7200
+C06,Claim-Evidence,3,69.500000,7200
+C06,Claim-Evidence,4,80.194444,7200
+C06,Claim-Evidence,5,98.013889,7200

@@ -1,0 +1,6 @@
+k,construction,baseline,effect_pp,pw_low,pw_high,sim_low,sim_high,holm_p,family,family_items,models,clusters,batch,status
+1,Claim-Evidence,PoisonedRAG,22.486111,20.194444,24.791667,19.224047,25.748175,0.00009999900,D4-method,10,8,300,poison-count ladder,registered
+2,Claim-Evidence,PoisonedRAG,26.527778,24.236111,28.916667,23.243151,29.812405,0.00009999900,D4-method,10,8,300,poison-count ladder,registered
+3,Claim-Evidence,PoisonedRAG,21.194444,18.902778,23.458681,17.950115,24.438774,0.00009999900,D4-method,10,8,300,poison-count ladder,registered
+4,Claim-Evidence,PoisonedRAG,10.666667,8.625000,12.791667,7.714806,13.618527,0.00009999900,D4-method,10,8,300,poison-count ladder,registered
+5,Claim-Evidence,PoisonedRAG,1.388889,0.513889,2.347569,0.076010,2.701768,0.00259997400,D4-method,10,8,300,poison-count ladder,registered

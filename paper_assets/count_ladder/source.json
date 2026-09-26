@@ -1,0 +1,10 @@
+{
+  "asset": "count_ladder",
+  "package_sources": [
+    "results/responses/count.jsonl.gz",
+    "results/statistical_families.json"
+  ],
+  "command": "python tools/reproduce.py --statistics",
+  "scope": "Main manuscript or a supplement explicitly referenced there.",
+  "statistics_note": "Frozen full-family calibration is retained; see REPRODUCIBILITY.md."
+}

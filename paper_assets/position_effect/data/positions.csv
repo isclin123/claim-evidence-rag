@@ -1,0 +1,10 @@
+setting,position,pi,condition,construction,asr_pp,responses
+answer_bearing,p1,PBBBB,C06,Claim-Evidence,36.611111,7200
+answer_bearing,p3,BBPBB,C06,Claim-Evidence,38.708333,7200
+answer_bearing,p5,BBBBP,C06,Claim-Evidence,61.847222,7200
+answer_bearing,p1,PBBBB,C42,CorruptRAG-AS,35.805556,7200
+answer_bearing,p3,BBPBB,C42,CorruptRAG-AS,33.111111,7200
+answer_bearing,p5,BBBBP,C42,CorruptRAG-AS,56.138889,7200
+answer_bearing,p1,PBBBB,C00,PoisonedRAG,14.375000,7200
+answer_bearing,p3,BBPBB,C00,PoisonedRAG,15.263889,7200
+answer_bearing,p5,BBBBP,C00,PoisonedRAG,35.041667,7200

@@ -1,0 +1,9 @@
+model,tag,digest,ollama_version
+Qwen3.5 9B,qwen3.5:9b,6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7,0.30.6
+Llama 3.1 8B,llama3.1:8b,46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e,0.30.6
+Mistral 7B,mistral:7b,6577803aa9a036369e481d648a2baebb381ebc6e897f2bb9a766a2aa7bfbc1cf,0.30.6
+Qwen3 1.7B,qwen3:1.7b-q4_K_M,8f68893c685c3ddff2aa3fffce2aa60a30bb2da65ca488b61fff134a4d1730e7,0.30.6
+Qwen3 4B,qwen3:4b-q4_K_M,2bfd38a7daaf4b1037efe517ccb73d1a3bbd4822cf89f1a82be1569050a114e0,0.30.6
+Qwen3 8B,qwen3:8b-q4_K_M,500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41,0.30.6
+Llama 3.2 3B,llama3.2:3b-instruct-q4_K_M,a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72,0.30.6
+Gemma 3 4B,gemma3:4b-it-q4_K_M,a2af6cc3eb7fa8be8504abaf9b04e88f17a119ec3f04a3addf55f92841195f5a,0.30.6

@@ -1,0 +1,57 @@
+\begin{table}[!htbp]
+\centering
+\caption{Claim--Evidence ASR (\%) for all 30 P/B patterns: model panel 1.}
+\label{tab:apx_orderings_1}
+\begingroup\fontsize{9}{10.8}\selectfont
+\setlength{\tabcolsep}{4.0pt}
+\renewcommand{\arraystretch}{1.13}
+\begin{tabular}{@{}rlrrrrr@{}}
+\toprule
+$m$ & Pattern $\pi$ & \shortstack{Qwen3.5\\9B} & \shortstack{Llama 3.1\\8B} & \shortstack{Mistral\\7B} & \shortstack{Qwen3\\1.7B} & Overall \\
+\midrule
+\multicolumn{7}{@{}l}{\textit{1 poisoned document}} \\
+\addlinespace[2pt]
+1 & \texttt{PBBBB}$^{\mathrm{F}}$ & 34.22 & 49.56 & 34.67 & 43.00 & 36.64 \\
+1 & \texttt{BPBBB} & 31.44 & 39.67 & 34.89 & 46.56 & 35.67 \\
+1 & \texttt{BBPBB} & 25.89 & 44.33 & 35.78 & 54.33 & 38.82 \\
+1 & \texttt{BBBPB} & 25.22 & 44.11 & 41.33 & 52.00 & 41.49 \\
+1 & \texttt{BBBBP}$^{\mathrm{L}}$ & 35.89 & 66.89 & 63.11 & 76.89 & 62.26 \\
+\midrule
+\multicolumn{7}{@{}l}{\textit{2 poisoned documents}} \\
+\addlinespace[2pt]
+2 & \texttt{PPBBB}$^{\mathrm{F}}$ & 45.22 & 58.00 & 64.89 & 80.56 & 54.21 \\
+2 & \texttt{PBPBB} & 44.22 & 81.89 & 74.56 & 78.67 & 62.65 \\
+2 & \texttt{PBBPB} & 45.33 & 85.56 & 76.22 & 73.00 & 65.38 \\
+2 & \texttt{PBBBP} & 49.89 & 85.44 & 81.11 & 77.67 & 70.94 \\
+2 & \texttt{BPPBB} & 42.00 & 42.00 & 53.56 & 74.00 & 52.03 \\
+2 & \texttt{BPBPB} & 43.44 & 56.44 & 66.56 & 75.78 & 58.18 \\
+2 & \texttt{BPBBP} & 46.33 & 62.11 & 71.33 & 78.44 & 63.71 \\
+2 & \texttt{BBPPB} & 40.56 & 49.33 & 68.33 & 82.78 & 60.50 \\
+2 & \texttt{BBPBP} & 42.22 & 64.11 & 76.33 & 85.44 & 67.50 \\
+2 & \texttt{BBBPP}$^{\mathrm{L}}$ & 46.44 & 70.33 & 82.00 & 92.11 & 73.72 \\
+\midrule
+\multicolumn{7}{@{}l}{\textit{3 poisoned documents}} \\
+\addlinespace[2pt]
+3 & \texttt{PPPBB}$^{\mathrm{F}}$ & 59.33 & 69.11 & 79.56 & 91.89 & 69.49 \\
+3 & \texttt{PPBPB} & 59.11 & 82.67 & 86.44 & 93.22 & 75.35 \\
+3 & \texttt{PPBBP} & 62.44 & 83.00 & 91.78 & 94.22 & 79.10 \\
+3 & \texttt{PBPPB} & 63.33 & 86.89 & 89.33 & 92.56 & 78.56 \\
+3 & \texttt{PBPBP} & 60.22 & 92.33 & 91.67 & 94.33 & 81.31 \\
+3 & \texttt{PBBPP} & 65.89 & 92.22 & 93.00 & 94.22 & 82.56 \\
+3 & \texttt{BPPPB} & 57.11 & 51.56 & 73.89 & 86.33 & 68.29 \\
+3 & \texttt{BPPBP} & 61.67 & 64.67 & 84.33 & 89.00 & 75.21 \\
+3 & \texttt{BPBPP} & 63.89 & 78.78 & 89.67 & 91.89 & 80.54 \\
+3 & \texttt{BBPPP}$^{\mathrm{L}}$ & 64.89 & 81.89 & 91.56 & 96.67 & 84.88 \\
+\midrule
+\multicolumn{7}{@{}l}{\textit{4 poisoned documents}} \\
+\addlinespace[2pt]
+4 & \texttt{PPPPB}$^{\mathrm{F}}$ & 70.11 & 80.78 & 91.44 & 95.78 & 80.15 \\
+4 & \texttt{PPPBP} & 80.78 & 91.00 & 96.89 & 99.00 & 88.43 \\
+4 & \texttt{PPBPP} & 82.44 & 92.56 & 97.67 & 99.22 & 90.01 \\
+4 & \texttt{PBPPP} & 84.11 & 96.11 & 97.67 & 99.22 & 91.38 \\
+4 & \texttt{BPPPP}$^{\mathrm{L}}$ & 84.67 & 92.56 & 97.22 & 98.78 & 91.83 \\
+\bottomrule
+\end{tabular}
+\endgroup
+\par\vspace{4pt}\begin{minipage}{\linewidth}\footnotesize Each model cell aggregates 300 questions and three seeds; Overall weights all eight models equally. The same Overall column is repeated in both panels for alignment. F marks all poisoned documents first, and L marks all poisoned documents last. The 5/10/10/5 patterns cover $m=1/2/3/4$ and preserve the frozen order within poisoned and benign documents.\end{minipage}
+\end{table}

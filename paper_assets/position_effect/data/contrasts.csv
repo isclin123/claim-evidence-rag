@@ -1,0 +1,11 @@
+batch,k,construction,contrast,family,family_items,effect_pp,pw_low,pw_high,sim_low,sim_high,holm_p,models,clusters,tier,registered_in_plan
+position,1,Claim-Evidence,BBPBB - PBBBB,E1-position,12,2.097222,-0.236111,4.430903,-1.243003,5.437448,0.08419915801,8,300,,5
+position,1,Claim-Evidence,BBBBP - PBBBB,E1-position,12,25.236111,22.236111,28.236458,20.954784,29.517438,0.00011999880,8,300,,5
+position,1,CorruptRAG-AS,BBPBB - PBBBB,E1-position,12,-2.694444,-4.763889,-0.569097,-5.682066,0.293177,0.03860961390,8,300,,5
+position,1,CorruptRAG-AS,BBBBP - PBBBB,E1-position,12,20.333333,17.916667,22.680556,16.994338,23.672329,0.00011999880,8,300,,5
+position,1,PoisonedRAG,BBPBB - PBBBB,E1-baseline-position,2,0.888889,-0.777778,2.569444,-1.018218,2.795996,0.29873701263,8,300,"secondary, not pre-registered; no confirmatory weight",
+position,1,PoisonedRAG,BBBBP - PBBBB,E1-baseline-position,2,20.666667,18.208333,23.180556,17.861111,23.472222,0.00001999980,8,300,"secondary, not pre-registered; no confirmatory weight",
+ordering,1,Claim-Evidence,BBBBP - PBBBB,E3-front-tail,4,25.625000,22.680556,28.638889,21.875413,29.374587,0.00003999960,8,300,primary,
+ordering,2,Claim-Evidence,BBBPP - PPBBB,E3-front-tail,4,19.513889,16.763889,22.208333,16.125000,22.902778,0.00003999960,8,300,primary,
+ordering,3,Claim-Evidence,BBPPP - PPPBB,E3-front-tail,4,15.388889,13.305556,17.527778,12.770085,18.007693,0.00003999960,8,300,primary,
+ordering,4,Claim-Evidence,BPPPP - PPPPB,E3-front-tail,4,11.680556,9.819444,13.569444,9.332785,14.028326,0.00003999960,8,300,primary,

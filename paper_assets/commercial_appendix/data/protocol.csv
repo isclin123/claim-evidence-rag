@@ -1,0 +1,4 @@
+model_id,service,interface,accessed,scheduled,valid,platform_missing,distinct_sessions,first_submission_utc,last_completion_utc
+M01,GPT-6 Astra,Codex CLI / medium effort,14 Sep 2026,600,600,0,600,2026-09-14T03:21:24.396964+00:00,2026-09-14T04:27:59.622681+00:00
+M02,Claude Opus 5,Web chat / high effort,14--15 Sep 2026,600,598,2,600,2026-09-14T15:36:26.664000+00:00,2026-09-15T03:52:57.010Z
+M03,DeepSeek V4.1 Flash,Web / thinking off,14--15 Sep 2026,600,600,0,600,2026-09-14T18:07:10.417Z,2026-09-15T04:11:56.336Z

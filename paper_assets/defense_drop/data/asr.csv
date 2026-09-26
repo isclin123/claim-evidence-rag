@@ -1,0 +1,5 @@
+construction_id,construction,setting,asr_percent,responses
+C00,PoisonedRAG,natural,68.847222,7200
+C00,PoisonedRAG,defended,14.166667,7200
+C42,CorruptRAG-AS,natural,79.944444,7200
+C42,CorruptRAG-AS,defended,35.416667,7200

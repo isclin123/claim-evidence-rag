@@ -1,0 +1,15 @@
+{
+  "prompt_template": "You are a helpful assistant, below is a query from a user and some relevant contexts. Answer the question given the information in those contexts. Your answer should be short and concise. If you cannot find the answer to the question, just say \"I don't know\". \n\nContexts: {contexts} \n\nQuery: {question} \n\nAnswer:",
+  "system_prompt": "You are a concise question-answering assistant. Answer using the provided contexts only. Keep the answer short.",
+  "temperature": 0.1,
+  "max_output_tokens": 80,
+  "num_ctx": 4096,
+  "think": false,
+  "keep_alive": "10m",
+  "response_seeds": [
+    101,
+    202,
+    303
+  ],
+  "schedule_seed": 2026082603
+}

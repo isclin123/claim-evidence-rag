@@ -1,0 +1,9 @@
+{
+  "asset": "benign_coverage",
+  "package_sources": [
+    "data/inputs.jsonl.gz"
+  ],
+  "command": "python tools/reproduce.py --statistics",
+  "scope": "Main manuscript or a supplement explicitly referenced there.",
+  "statistics_note": "Frozen full-family calibration is retained; see REPRODUCIBILITY.md."
+}

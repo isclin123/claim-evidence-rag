@@ -1,0 +1,19 @@
+\begin{table}[!htbp]
+\centering
+\caption{Commercial interfaces and completed coverage.}
+\label{tab:commercial_protocol}
+\begingroup\fontsize{9}{10.8}\selectfont
+\setlength{\tabcolsep}{4.0pt}
+\renewcommand{\arraystretch}{1.13}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{1.25in}>{\raggedright\arraybackslash}p{1.35in}>{\raggedright\arraybackslash}p{.9in}rr@{}}
+\toprule
+Service & Interface / mode & Accessed & Valid / planned & Missing \\
+\midrule
+GPT-6 Astra & Codex CLI / medium effort & 14 Sep 2026 & 600/600 & 0 \\
+Claude Opus 5 & Web chat / high effort & 14--15 Sep 2026 & 598/600 & 2 \\
+DeepSeek V4.1 Flash & Web / thinking off & 14--15 Sep 2026 & 600/600 & 0 \\
+\bottomrule
+\end{tabular}
+\endgroup
+\par\vspace{4pt}\begin{minipage}{\linewidth}\footnotesize Each service received 60 questions (20 per dataset), two constructions, and five poison counts: 600 scheduled responses, each in a fresh session. Retrieval, search, and tools were disabled. The interfaces did not expose the local temperature, output-token, or seed controls. Two Claude requests returned no valid answer and remain missing.\end{minipage}
+\end{table}

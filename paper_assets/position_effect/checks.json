@@ -1,0 +1,106 @@
+{
+  "figure": "position_effect",
+  "generated_at": "2026-09-24T23:21:24-04:00",
+  "source_csv": [
+    "data/positions.csv",
+    "data/orderings.csv",
+    "data/front_tail.csv"
+  ],
+  "source_csv_sha256": {
+    "data/positions.csv": "3088567a9f48b7ea4a514aed753baa8a2d2bed0066b6a9a62a079807cd0dce40",
+    "data/orderings.csv": "5c0e21a3688cf05823df14d696cd6451617fb174ccd43f289b22d8c6a1add3bf",
+    "data/front_tail.csv": "b970fe2fbec8c0edf859f224fa15280d8839218985453e65687d71c3325d5181"
+  },
+  "panel_a": {
+    "constructions_shown": [
+      "Claim-Evidence",
+      "CorruptRAG-AS",
+      "PoisonedRAG"
+    ],
+    "values_pp": {
+      "Claim-Evidence": {
+        "PBBBB": 36.61,
+        "BBPBB": 38.71,
+        "BBBBP": 61.85
+      },
+      "CorruptRAG-AS": {
+        "PBBBB": 35.81,
+        "BBPBB": 33.11,
+        "BBBBP": 56.14
+      },
+      "PoisonedRAG": {
+        "PBBBB": 14.38,
+        "BBPBB": 15.26,
+        "BBBBP": 35.04
+      }
+    },
+    "batch": "position batch, one poisoned document, k = 1"
+  },
+  "panel_b": {
+    "construction": "Claim-Evidence",
+    "values_pp": {
+      "first": {
+        "1": 36.64,
+        "2": 54.21,
+        "3": 69.49,
+        "4": 80.15
+      },
+      "last": {
+        "1": 62.26,
+        "2": 73.72,
+        "3": 84.88,
+        "4": 91.83
+      },
+      "other_orderings": {
+        "1": [
+          35.67,
+          41.49
+        ],
+        "2": [
+          52.03,
+          70.94
+        ],
+        "3": [
+          68.29,
+          82.56
+        ],
+        "4": [
+          88.43,
+          91.38
+        ]
+      },
+      "connector_length_pp": {
+        "1": 25.63,
+        "2": 19.51,
+        "3": 15.39,
+        "4": 11.68
+      }
+    },
+    "batch": "ordering batch, 30 arrangements, k = 1 to 4",
+    "encoding": "one vertical pair per count: the filled marker is all poisoned last, the hollow marker all poisoned first, and the connector between them is the registered E3-front-tail contrast, so its length is the effect and the reader subtracts nothing. The other arrangements at that count are grey and set to the right of the pair, as context only",
+    "connector_length_matches": "drawn endpoints minus each other equal data/front_tail.csv to the printed precision",
+    "dodge": "deterministic: grey points within 2.4 pp of each other are spread sideways by 0.050 x units, no randomness",
+    "grey_cloud_is_not_a_range": "the grey points are the individual remaining arrangements, and some of them fall below the hollow marker: all poisoned first is not the minimum at k = 1, 2 or 3"
+  },
+  "colour_rule": "figstyle.METHOD_COLORS, the same colour each construction has in every figure; panel (b) is one construction, so the pair carrying the registered contrast keeps that colour and everything else is de-emphasis grey",
+  "held_fixed": "answer-bearing benign context, five documents in the context, eight models, three seeds, 7,200 responses per point",
+  "axis": {
+    "y": "ASR (%)",
+    "range": [
+      0,
+      100
+    ],
+    "shared_by_both_panels": true,
+    "x_a": "poison position in pi notation",
+    "x_b": "number of poisoned documents"
+  },
+  "value_label_precision": "1 decimal; panel (a) labels every point, panel (b) labels only the eight endpoints of the four pairs, because the connector already carries the contrast and thirty labels do not fit",
+  "constructions_in_batch_not_shown": [],
+  "intervals": "none drawn; the connector in panel (b) is the point estimate of the registered E3-front-tail contrast, and its interval, together with the position and interaction families, is recorded in source.json",
+  "files": {
+    "position_effect.pdf": "1a00cfae85deb512f3dceb4158011fed28105735dedc5613a54d4c2406fd0569",
+    "position_effect.svg": "54d6c6e57211d561c426fe905694ceeafba53ad4c115b48bb0d29915ba2fa074",
+    "position_effect.png": "397a2794ce4fd682bda1dcca35afa8b4a3119cdcf4e807646b7db76f420e41ba"
+  },
+  "text_outside_canvas": []
+}

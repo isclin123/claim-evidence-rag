@@ -1,0 +1,485 @@
+{
+  "natural": {
+    "C00": {
+      "records": 7200,
+      "asr_pp": 68.847222,
+      "per_model_pp": {
+        "qwen35_9b": 74.555556,
+        "llama31_8b": 61.111111,
+        "mistral_7b": 67.333333,
+        "qwen3_1_7b": 72.666667,
+        "qwen3_4b": 67.111111,
+        "qwen3_8b": 61.777778,
+        "llama32_3b": 74.666667,
+        "gemma3_4b": 71.555556
+      },
+      "per_dataset_pp": {
+        "nq": 66.083333,
+        "hotpotqa": 75.125,
+        "msmarco": 65.333333
+      }
+    },
+    "C06": {
+      "records": 7200,
+      "asr_pp": 87.138889,
+      "per_model_pp": {
+        "qwen35_9b": 81.555556,
+        "llama31_8b": 91.444444,
+        "mistral_7b": 85.0,
+        "qwen3_1_7b": 93.333333,
+        "qwen3_4b": 85.777778,
+        "qwen3_8b": 82.888889,
+        "llama32_3b": 89.777778,
+        "gemma3_4b": 87.333333
+      },
+      "per_dataset_pp": {
+        "nq": 87.166667,
+        "hotpotqa": 89.041667,
+        "msmarco": 85.208333
+      }
+    },
+    "C42": {
+      "records": 7200,
+      "asr_pp": 79.944444,
+      "per_model_pp": {
+        "qwen35_9b": 80.555556,
+        "llama31_8b": 83.0,
+        "mistral_7b": 68.333333,
+        "qwen3_1_7b": 92.888889,
+        "qwen3_4b": 79.444444,
+        "qwen3_8b": 78.555556,
+        "llama32_3b": 79.555556,
+        "gemma3_4b": 77.222222
+      },
+      "per_dataset_pp": {
+        "nq": 77.958333,
+        "hotpotqa": 84.333333,
+        "msmarco": 77.541667
+      }
+    }
+  },
+  "answer_bearing": {
+    "C00": {
+      "records": 7200,
+      "asr_pp": 14.166667,
+      "per_model_pp": {
+        "qwen35_9b": 26.333333,
+        "llama31_8b": 15.0,
+        "mistral_7b": 9.777778,
+        "qwen3_1_7b": 13.666667,
+        "qwen3_4b": 8.333333,
+        "qwen3_8b": 4.777778,
+        "llama32_3b": 25.222222,
+        "gemma3_4b": 10.222222
+      },
+      "per_dataset_pp": {
+        "nq": 9.791667,
+        "hotpotqa": 21.666667,
+        "msmarco": 11.041667
+      }
+    },
+    "C06": {
+      "records": 7200,
+      "asr_pp": 36.527778,
+      "per_model_pp": {
+        "qwen35_9b": 32.444444,
+        "llama31_8b": 50.0,
+        "mistral_7b": 35.222222,
+        "qwen3_1_7b": 41.555556,
+        "qwen3_4b": 23.555556,
+        "qwen3_8b": 21.222222,
+        "llama32_3b": 55.333333,
+        "gemma3_4b": 32.888889
+      },
+      "per_dataset_pp": {
+        "nq": 31.25,
+        "hotpotqa": 47.666667,
+        "msmarco": 30.666667
+      }
+    },
+    "C42": {
+      "records": 7200,
+      "asr_pp": 35.416667,
+      "per_model_pp": {
+        "qwen35_9b": 21.555556,
+        "llama31_8b": 49.666667,
+        "mistral_7b": 15.222222,
+        "qwen3_1_7b": 70.444444,
+        "qwen3_4b": 21.0,
+        "qwen3_8b": 18.0,
+        "llama32_3b": 54.111111,
+        "gemma3_4b": 33.333333
+      },
+      "per_dataset_pp": {
+        "nq": 31.083333,
+        "hotpotqa": 43.5,
+        "msmarco": 31.666667
+      }
+    }
+  },
+  "count": {
+    "O_K1": {
+      "records": 7200,
+      "asr_pp": 14.305556,
+      "per_model_pp": {
+        "qwen35_9b": 26.555556,
+        "llama31_8b": 15.333333,
+        "mistral_7b": 10.0,
+        "qwen3_1_7b": 14.444444,
+        "qwen3_4b": 7.666667,
+        "qwen3_8b": 4.888889,
+        "llama32_3b": 25.777778,
+        "gemma3_4b": 9.777778
+      },
+      "per_dataset_pp": {
+        "nq": 10.041667,
+        "hotpotqa": 22.125,
+        "msmarco": 10.75
+      }
+    },
+    "O_K2": {
+      "records": 7200,
+      "asr_pp": 27.611111,
+      "per_model_pp": {
+        "qwen35_9b": 41.444444,
+        "llama31_8b": 20.444444,
+        "mistral_7b": 31.888889,
+        "qwen3_1_7b": 37.333333,
+        "qwen3_4b": 20.333333,
+        "qwen3_8b": 14.888889,
+        "llama32_3b": 30.111111,
+        "gemma3_4b": 24.444444
+      },
+      "per_dataset_pp": {
+        "nq": 25.375,
+        "hotpotqa": 35.75,
+        "msmarco": 21.708333
+      }
+    },
+    "O_K3": {
+      "records": 7200,
+      "asr_pp": 48.305556,
+      "per_model_pp": {
+        "qwen35_9b": 61.666667,
+        "llama31_8b": 27.555556,
+        "mistral_7b": 58.222222,
+        "qwen3_1_7b": 64.222222,
+        "qwen3_4b": 40.222222,
+        "qwen3_8b": 31.888889,
+        "llama32_3b": 41.111111,
+        "gemma3_4b": 61.555556
+      },
+      "per_dataset_pp": {
+        "nq": 47.875,
+        "hotpotqa": 53.666667,
+        "msmarco": 43.375
+      }
+    },
+    "O_K4": {
+      "records": 7200,
+      "asr_pp": 69.527778,
+      "per_model_pp": {
+        "qwen35_9b": 74.0,
+        "llama31_8b": 50.0,
+        "mistral_7b": 80.777778,
+        "qwen3_1_7b": 87.777778,
+        "qwen3_4b": 70.555556,
+        "qwen3_8b": 55.555556,
+        "llama32_3b": 55.0,
+        "gemma3_4b": 82.555556
+      },
+      "per_dataset_pp": {
+        "nq": 69.791667,
+        "hotpotqa": 68.875,
+        "msmarco": 69.916667
+      }
+    },
+    "O_K5": {
+      "records": 7200,
+      "asr_pp": 96.625,
+      "per_model_pp": {
+        "qwen35_9b": 97.777778,
+        "llama31_8b": 97.0,
+        "mistral_7b": 98.222222,
+        "qwen3_1_7b": 98.111111,
+        "qwen3_4b": 97.0,
+        "qwen3_8b": 96.333333,
+        "llama32_3b": 92.666667,
+        "gemma3_4b": 95.888889
+      },
+      "per_dataset_pp": {
+        "nq": 96.791667,
+        "hotpotqa": 96.625,
+        "msmarco": 96.458333
+      }
+    },
+    "C_K1": {
+      "records": 7200,
+      "asr_pp": 36.791667,
+      "per_model_pp": {
+        "qwen35_9b": 34.888889,
+        "llama31_8b": 49.888889,
+        "mistral_7b": 35.111111,
+        "qwen3_1_7b": 42.444444,
+        "qwen3_4b": 23.555556,
+        "qwen3_8b": 20.555556,
+        "llama32_3b": 55.666667,
+        "gemma3_4b": 32.222222
+      },
+      "per_dataset_pp": {
+        "nq": 30.458333,
+        "hotpotqa": 48.416667,
+        "msmarco": 31.5
+      }
+    },
+    "C_K2": {
+      "records": 7200,
+      "asr_pp": 54.138889,
+      "per_model_pp": {
+        "qwen35_9b": 45.0,
+        "llama31_8b": 58.666667,
+        "mistral_7b": 64.0,
+        "qwen3_1_7b": 80.222222,
+        "qwen3_4b": 40.333333,
+        "qwen3_8b": 38.222222,
+        "llama32_3b": 54.444444,
+        "gemma3_4b": 52.222222
+      },
+      "per_dataset_pp": {
+        "nq": 50.791667,
+        "hotpotqa": 62.875,
+        "msmarco": 48.75
+      }
+    },
+    "C_K3": {
+      "records": 7200,
+      "asr_pp": 69.5,
+      "per_model_pp": {
+        "qwen35_9b": 60.555556,
+        "llama31_8b": 69.0,
+        "mistral_7b": 79.222222,
+        "qwen3_1_7b": 92.555556,
+        "qwen3_4b": 60.777778,
+        "qwen3_8b": 46.888889,
+        "llama32_3b": 64.0,
+        "gemma3_4b": 83.0
+      },
+      "per_dataset_pp": {
+        "nq": 68.541667,
+        "hotpotqa": 74.25,
+        "msmarco": 65.708333
+      }
+    },
+    "C_K4": {
+      "records": 7200,
+      "asr_pp": 80.194444,
+      "per_model_pp": {
+        "qwen35_9b": 70.0,
+        "llama31_8b": 80.666667,
+        "mistral_7b": 92.111111,
+        "qwen3_1_7b": 96.222222,
+        "qwen3_4b": 83.111111,
+        "qwen3_8b": 55.888889,
+        "llama32_3b": 71.444444,
+        "gemma3_4b": 92.111111
+      },
+      "per_dataset_pp": {
+        "nq": 79.75,
+        "hotpotqa": 78.75,
+        "msmarco": 82.083333
+      }
+    },
+    "C_K5": {
+      "records": 7200,
+      "asr_pp": 98.013889,
+      "per_model_pp": {
+        "qwen35_9b": 98.555556,
+        "llama31_8b": 98.777778,
+        "mistral_7b": 99.888889,
+        "qwen3_1_7b": 99.666667,
+        "qwen3_4b": 100.0,
+        "qwen3_8b": 98.222222,
+        "llama32_3b": 90.666667,
+        "gemma3_4b": 98.333333
+      },
+      "per_dataset_pp": {
+        "nq": 97.916667,
+        "hotpotqa": 98.0,
+        "msmarco": 98.125
+      }
+    }
+  },
+  "position": {
+    "C00@p1": {
+      "records": 7200,
+      "asr_pp": 14.375,
+      "per_model_pp": {
+        "qwen35_9b": 26.111111,
+        "llama31_8b": 15.777778,
+        "mistral_7b": 9.888889,
+        "qwen3_1_7b": 13.777778,
+        "qwen3_4b": 8.444444,
+        "qwen3_8b": 4.777778,
+        "llama32_3b": 25.222222,
+        "gemma3_4b": 11.0
+      },
+      "per_dataset_pp": {
+        "nq": 10.333333,
+        "hotpotqa": 21.75,
+        "msmarco": 11.041667
+      }
+    },
+    "C00@p3": {
+      "records": 7200,
+      "asr_pp": 15.263889,
+      "per_model_pp": {
+        "qwen35_9b": 21.333333,
+        "llama31_8b": 13.666667,
+        "mistral_7b": 11.555556,
+        "qwen3_1_7b": 12.666667,
+        "qwen3_4b": 9.111111,
+        "qwen3_8b": 9.111111,
+        "llama32_3b": 37.888889,
+        "gemma3_4b": 6.777778
+      },
+      "per_dataset_pp": {
+        "nq": 12.541667,
+        "hotpotqa": 23.333333,
+        "msmarco": 9.916667
+      }
+    },
+    "C00@p5": {
+      "records": 7200,
+      "asr_pp": 35.041667,
+      "per_model_pp": {
+        "qwen35_9b": 34.444444,
+        "llama31_8b": 35.0,
+        "mistral_7b": 35.777778,
+        "qwen3_1_7b": 29.444444,
+        "qwen3_4b": 28.777778,
+        "qwen3_8b": 39.0,
+        "llama32_3b": 60.666667,
+        "gemma3_4b": 17.222222
+      },
+      "per_dataset_pp": {
+        "nq": 30.208333,
+        "hotpotqa": 40.166667,
+        "msmarco": 34.75
+      }
+    },
+    "C06@p1": {
+      "records": 7200,
+      "asr_pp": 36.611111,
+      "per_model_pp": {
+        "qwen35_9b": 32.888889,
+        "llama31_8b": 49.555556,
+        "mistral_7b": 35.222222,
+        "qwen3_1_7b": 41.777778,
+        "qwen3_4b": 23.555556,
+        "qwen3_8b": 21.222222,
+        "llama32_3b": 55.666667,
+        "gemma3_4b": 33.0
+      },
+      "per_dataset_pp": {
+        "nq": 31.25,
+        "hotpotqa": 47.666667,
+        "msmarco": 30.916667
+      }
+    },
+    "C06@p3": {
+      "records": 7200,
+      "asr_pp": 38.708333,
+      "per_model_pp": {
+        "qwen35_9b": 25.888889,
+        "llama31_8b": 43.111111,
+        "mistral_7b": 35.777778,
+        "qwen3_1_7b": 54.222222,
+        "qwen3_4b": 33.888889,
+        "qwen3_8b": 29.0,
+        "llama32_3b": 68.0,
+        "gemma3_4b": 19.777778
+      },
+      "per_dataset_pp": {
+        "nq": 37.625,
+        "hotpotqa": 49.041667,
+        "msmarco": 29.458333
+      }
+    },
+    "C06@p5": {
+      "records": 7200,
+      "asr_pp": 61.847222,
+      "per_model_pp": {
+        "qwen35_9b": 34.777778,
+        "llama31_8b": 65.333333,
+        "mistral_7b": 62.444444,
+        "qwen3_1_7b": 75.777778,
+        "qwen3_4b": 63.888889,
+        "qwen3_8b": 68.0,
+        "llama32_3b": 78.666667,
+        "gemma3_4b": 45.888889
+      },
+      "per_dataset_pp": {
+        "nq": 59.166667,
+        "hotpotqa": 68.75,
+        "msmarco": 57.625
+      }
+    },
+    "C42@p1": {
+      "records": 7200,
+      "asr_pp": 35.805556,
+      "per_model_pp": {
+        "qwen35_9b": 22.111111,
+        "llama31_8b": 52.111111,
+        "mistral_7b": 15.111111,
+        "qwen3_1_7b": 71.333333,
+        "qwen3_4b": 21.222222,
+        "qwen3_8b": 18.111111,
+        "llama32_3b": 53.222222,
+        "gemma3_4b": 33.222222
+      },
+      "per_dataset_pp": {
+        "nq": 31.708333,
+        "hotpotqa": 43.625,
+        "msmarco": 32.083333
+      }
+    },
+    "C42@p3": {
+      "records": 7200,
+      "asr_pp": 33.111111,
+      "per_model_pp": {
+        "qwen35_9b": 26.888889,
+        "llama31_8b": 27.333333,
+        "mistral_7b": 14.111111,
+        "qwen3_1_7b": 63.333333,
+        "qwen3_4b": 35.111111,
+        "qwen3_8b": 33.0,
+        "llama32_3b": 54.444444,
+        "gemma3_4b": 10.666667
+      },
+      "per_dataset_pp": {
+        "nq": 29.625,
+        "hotpotqa": 46.458333,
+        "msmarco": 23.25
+      }
+    },
+    "C42@p5": {
+      "records": 7200,
+      "asr_pp": 56.138889,
+      "per_model_pp": {
+        "qwen35_9b": 40.444444,
+        "llama31_8b": 43.666667,
+        "mistral_7b": 31.111111,
+        "qwen3_1_7b": 82.444444,
+        "qwen3_4b": 90.555556,
+        "qwen3_8b": 72.666667,
+        "llama32_3b": 51.222222,
+        "gemma3_4b": 37.0
+      },
+      "per_dataset_pp": {
+        "nq": 54.041667,
+        "hotpotqa": 66.5,
+        "msmarco": 47.875
+      }
+    }
+  }
+}

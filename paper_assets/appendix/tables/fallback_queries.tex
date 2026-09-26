@@ -1,0 +1,21 @@
+\begin{table}[!htbp]
+\centering
+\caption{Queries with clean-corpus fallback slots in the answer-bearing library.}
+\label{tab:apx_fallback}
+\begingroup\fontsize{9}{10.8}\selectfont
+\setlength{\tabcolsep}{4.0pt}
+\renewcommand{\arraystretch}{1.13}
+\begin{tabular}{@{}l>{\raggedright\arraybackslash}p{1.62in}>{\raggedright\arraybackslash}p{1.15in}cc@{}}
+\toprule
+Dataset & Query ID & Labeled correct answer & Slots & Matches \\
+\midrule
+NQ & \texttt{test397} & S & 1,2,3,4 & 4/4 \\
+NQ & \texttt{test412} & IV & 4 & 0/1 \\
+HotpotQA & \texttt{5add1193\allowbreak{}55429947\allowbreak{}34353827} & yes, Skin Yard; no, Ostava & 1,2,3,4 & 0/4 \\
+MS MARCO & \texttt{422717} & yes & 1,2,3,4 & 0/4 \\
+MS MARCO & \texttt{300369} & 5 & 4 & 0/1 \\
+\bottomrule
+\end{tabular}
+\endgroup
+\par\vspace{4pt}\begin{minipage}{\linewidth}\footnotesize Slots are indices in the frozen four-document benign library. Matches counts only the fallback slots. The four slots for NQ test397 come from the frozen-ranking fallback branch and match the single letter S as an ordinary substring. The other ten fallback slots come from the frozen top-four corpus documents and do not contain the labeled answer string. Five questions required fallback; four questions have fewer than four matching documents in the completed library.\end{minipage}
+\end{table}

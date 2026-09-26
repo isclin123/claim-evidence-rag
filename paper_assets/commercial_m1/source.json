@@ -1,0 +1,10 @@
+{
+  "asset": "commercial_k1",
+  "package_sources": [
+    "results/responses/commercial.jsonl.gz",
+    "data/commercial_sample.json"
+  ],
+  "command": "python tools/reproduce.py --statistics",
+  "scope": "Main manuscript or a supplement explicitly referenced there.",
+  "statistics_note": "Frozen full-family calibration is retained; see REPRODUCIBILITY.md."
+}

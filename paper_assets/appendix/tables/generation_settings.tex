@@ -1,0 +1,24 @@
+\begin{table}[!htbp]
+\centering
+\caption{Recorded settings for benign-passage preparation and local answer generation.}
+\label{tab:apx_settings}
+\begingroup\fontsize{9}{10.8}\selectfont
+\setlength{\tabcolsep}{4.0pt}
+\renewcommand{\arraystretch}{1.13}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{1.32in}>{\raggedright\arraybackslash}p{1.8in}>{\raggedright\arraybackslash}p{1.8in}@{}}
+\toprule
+Setting & Benign-passage generation & Answer generation \\
+\midrule
+Model & Qwen3.5 9B & Eight models in Table~\ref{tab:apx_models} \\
+Temperature & 1.0 & 0.1 \\
+Context limit & 4,096 tokens & 4,096 tokens \\
+Output limit & 200 tokens & 80 tokens \\
+Thinking & Disabled & Disabled \\
+Seeds & Master seed 2026090201; per-attempt derived seeds & 101, 202, 303 \\
+Document rule & 25--80 words; four slots per question & Five supplied documents \\
+Attempts & Up to 50 generation attempts per slot; up to 3 additional technical retries & Three seed-specific responses per question and condition \\
+\bottomrule
+\end{tabular}
+\endgroup
+\par\vspace{4pt}\begin{minipage}{\linewidth}\footnotesize Preparation seeds are derived from dataset, query ID, slot, attempt, and the fixed generation marker. The reference text uses the first 400 characters of each of four retrieved passages; previously accepted paragraphs contribute their first 180 characters. Generation checks are mechanical. The generator is also one of the evaluated models.\end{minipage}
+\end{table}

@@ -1,0 +1,93 @@
+{
+  "checks": {
+    "all_ordering_patterns": 30,
+    "ordering_model_and_overall_cells": 270,
+    "frozen_commercial_interval_rows": 15,
+    "commercial_dataset_cells_checked": 90,
+    "commercial_responses_rescored": 1798,
+    "commercial_missing": 2,
+    "commercial_overall_cells_matched": 30,
+    "new_model_calls": 0,
+    "new_inference": 0
+  },
+  "figures": {
+    "local_model_heterogeneity": {
+      "source": [
+        "results/expected_asr.json"
+      ],
+      "rows": 32,
+      "width_in": 5.5,
+      "height_in": 4.35,
+      "png_dpi": 600,
+      "all_text_within_canvas": true,
+      "pdf_sha256": "2f29e0ac9c1fb16862db1fb6d42a349ecbb068078d0cca9e6b3f933b75372d93"
+    },
+    "local_count_heterogeneity": {
+      "source": [
+        "results/expected_asr.json: count"
+      ],
+      "rows": 40,
+      "width_in": 5.5,
+      "height_in": 4.05,
+      "png_dpi": 600,
+      "all_text_within_canvas": true,
+      "pdf_sha256": "b53eb5c04590efa55de58f45c2a760d8e6e1f751ff3aed9fb1e22c13fa6a48db"
+    },
+    "local_arrangements_m1_m4": {
+      "source": [
+        "results/expected_ordering.json: m=1 and m=4 (10 patterns)"
+      ],
+      "rows": 10,
+      "width_in": 5.5,
+      "height_in": 5.6,
+      "png_dpi": 600,
+      "all_text_within_canvas": true,
+      "pdf_sha256": "a42d5df6c2f19ddd0dc8faa31a121e6b471c9d1db1d3bbb80224d56f7233119c"
+    },
+    "local_arrangements_m2": {
+      "source": [
+        "results/expected_ordering.json: m=2 (10 patterns)"
+      ],
+      "rows": 10,
+      "width_in": 5.5,
+      "height_in": 4.7,
+      "png_dpi": 600,
+      "all_text_within_canvas": true,
+      "pdf_sha256": "2eb88ebef1bc72d5c2d162edb29b2019821bd58839b15fd3ee99630668f849e6"
+    },
+    "local_arrangements_m3": {
+      "source": [
+        "results/expected_ordering.json: m=3 (10 patterns)"
+      ],
+      "rows": 10,
+      "width_in": 5.5,
+      "height_in": 4.7,
+      "png_dpi": 600,
+      "all_text_within_canvas": true,
+      "pdf_sha256": "14239ec6dde0baf2c2b35fa10ab032201381c6c41a7c3500a28d65030422e6f1"
+    },
+    "commercial_paired_intervals": {
+      "source": [
+        "paper_assets/commercial_appendix/data/paired.csv (15 frozen intervals)"
+      ],
+      "rows": 15,
+      "width_in": 5.5,
+      "height_in": 3.0,
+      "png_dpi": 600,
+      "all_text_within_canvas": true,
+      "pdf_sha256": "a4d93c0f23dc8ff0e6acf3f6280a54871b3bbac447ce992cf7c6dbb27e21c1ed"
+    },
+    "commercial_dataset_ladders": {
+      "source": [
+        "results/responses/commercial.jsonl.gz: 1798 valid and 2 missing records independently checked",
+        "paper_assets/commercial_appendix/data/ladder.csv: 30 totals matched"
+      ],
+      "rows": 90,
+      "width_in": 5.5,
+      "height_in": 5.55,
+      "png_dpi": 600,
+      "all_text_within_canvas": true,
+      "pdf_sha256": "2b8e7a0d3d5b090b1909c6f543e258fe9259735e5a214a8eca52e919d200a344"
+    }
+  }
+}

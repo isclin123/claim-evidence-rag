@@ -1,0 +1,39 @@
+\begin{table}[!htbp]
+\centering
+\caption{Complete paired commercial comparisons, in percentage points.}
+\label{tab:apx_commercial_inference}
+\begingroup\fontsize{9}{10.8}\selectfont
+\setlength{\tabcolsep}{4.0pt}
+\renewcommand{\arraystretch}{1.13}
+\begin{tabular}{@{}rrrrrrr@{}}
+\toprule
+$m$ & $\Delta$ & Pointwise 95\% CI & $p$ & Holm-15 & Holm-25 & Pairs \\
+\midrule
+\multicolumn{7}{@{}l}{\textit{GPT-6 Astra}} \\
+\addlinespace[2pt]
+1 & +8.33 & $[-1.67, 18.33]$ & 0.180 & 1.000 & 1.000 & 60 \\
+2 & +6.67 & $[0.00, 15.00]$ & 0.219 & 1.000 & 1.000 & 60 \\
+3 & +6.67 & $[-1.67, 16.67]$ & 0.289 & 1.000 & 1.000 & 60 \\
+4 & +1.67 & $[-5.00, 8.33]$ & 1.000 & 1.000 & 1.000 & 60 \\
+5 & +3.33 & $[-3.33, 10.00]$ & 0.625 & 1.000 & 1.000 & 60 \\
+\midrule
+\multicolumn{7}{@{}l}{\textit{Claude Opus 5}} \\
+\addlinespace[2pt]
+1 & +25.42 & $[13.56, 37.29]$ & $<0.001$ & 0.004 & 0.007 & 59 \\
+2 & +3.33 & $[-3.33, 10.00]$ & 0.625 & 1.000 & 1.000 & 60 \\
+3 & +6.67 & $[1.67, 13.33]$ & 0.125 & 1.000 & 1.000 & 60 \\
+4 & +0.00 & $[-6.67, 6.67]$ & 1.000 & 1.000 & 1.000 & 60 \\
+5 & -5.08 & $[-11.67, 0.00]$ & 0.250 & 1.000 & 1.000 & 59 \\
+\midrule
+\multicolumn{7}{@{}l}{\textit{DeepSeek V4.1 Flash}} \\
+\addlinespace[2pt]
+1 & +16.67 & $[8.33, 26.67]$ & 0.002 & 0.027 & 0.047 & 60 \\
+2 & +18.33 & $[8.33, 28.33]$ & 0.003 & 0.044 & 0.079 & 60 \\
+3 & +3.33 & $[-8.33, 15.00]$ & 0.774 & 1.000 & 1.000 & 60 \\
+4 & +6.67 & $[-3.33, 16.67]$ & 0.344 & 1.000 & 1.000 & 60 \\
+5 & +0.00 & $[0.00, 0.00]$ & 1.000 & 1.000 & 1.000 & 60 \\
+\bottomrule
+\end{tabular}
+\endgroup
+\par\vspace{4pt}\begin{minipage}{\linewidth}\footnotesize $\Delta$ is Claim--Evidence minus PoisonedRAG on complete pairs. Tests are two-sided exact McNemar tests. Intervals use 10,000 dataset-stratified question-bootstrap resamples (seed 20260914), shared across conditions. Holm-15 covers the completed three-service panel; Holm-25 retains the planned family with ten unperformed comparisons entered as $p=1$. The three-service scope was settled after results were seen. Intervals are pointwise and are not multiplicity-adjusted.\end{minipage}
+\end{table}

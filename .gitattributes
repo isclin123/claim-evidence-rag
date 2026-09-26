@@ -1,0 +1,8 @@
+# Preserve the exact bytes covered by provenance/files.json on every platform.
+# Disabling newline conversion does not disable ordinary text diffs.
+* -text
+
+# Compressed responses are ordinary Git files; no LFS pointer/filter is used.
+*.gz binary
+*.pdf binary
+*.png binary

@@ -1,0 +1,29 @@
+\begin{table}[!htbp]
+\centering
+\caption{ASR (\%) by poison count and dataset.}
+\label{tab:apx_count_dataset}
+\begingroup\fontsize{9}{10.8}\selectfont
+\setlength{\tabcolsep}{4.0pt}
+\renewcommand{\arraystretch}{1.13}
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+Dataset & $m=1$ & $m=2$ & $m=3$ & $m=4$ & $m=5$ \\
+\midrule
+\multicolumn{6}{@{}l}{\textit{PoisonedRAG}} \\
+\addlinespace[2pt]
+NQ & 10.04 & 25.38 & 47.88 & 69.79 & 96.79 \\
+HotpotQA & 22.12 & 35.75 & 53.67 & 68.88 & 96.62 \\
+MS MARCO & 10.75 & 21.71 & 43.38 & 69.92 & 96.46 \\
+Overall & 14.31 & 27.61 & 48.31 & 69.53 & 96.62 \\
+\midrule
+\multicolumn{6}{@{}l}{\textit{Claim--Evidence}} \\
+\addlinespace[2pt]
+NQ & 30.46 & 50.79 & 68.54 & 79.75 & 97.92 \\
+HotpotQA & 48.42 & 62.88 & 74.25 & 78.75 & 98.00 \\
+MS MARCO & 31.50 & 48.75 & 65.71 & 82.08 & 98.12 \\
+Overall & 36.79 & 54.14 & 69.50 & 80.19 & 98.01 \\
+\bottomrule
+\end{tabular}
+\endgroup
+\par\vspace{4pt}\begin{minipage}{\linewidth}\footnotesize Each dataset-level cell uses 100 questions, eight models, and three seeds (2,400 responses). Overall uses 7,200 responses. All poisoned documents precede the answer-bearing benign documents. At $m=5$, there is no benign document. This poison-count batch is separate from the main comparison.\end{minipage}
+\end{table}

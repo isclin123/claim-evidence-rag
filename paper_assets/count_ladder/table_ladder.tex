@@ -1,0 +1,18 @@
+\begin{table}[t]\centering
+\caption{Attack success rate at each poisoned-document count, with the paired Claim-Evidence minus PoisonedRAG difference. Answer-bearing benign context, 7{,}200 responses per ASR cell over 300 question clusters. Intervals are 95\% pointwise cluster bootstraps and $p_H$ is Holm-adjusted within the registered family; Table~\ref{tab:method_ci} gives the full inference.}
+\label{tab:count_ladder}
+\small
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+ & \multicolumn{2}{c}{ASR (\%)} & \multicolumn{3}{c}{Claim-Evidence $-$ PoisonedRAG (pp)} \\
+\cmidrule(lr){2-3}\cmidrule(l){4-6}
+$k$ & PoisonedRAG & Claim-Evidence & Difference & 95\% CI & $p_H$ \\
+\midrule
+1 & 14.3 & 36.8 & $+22.5$ & $[20.19, 24.79]$ & $<0.001$ \\
+2 & 27.6 & 54.1 & $+26.5$ & $[24.24, 28.92]$ & $<0.001$ \\
+3 & 48.3 & 69.5 & $+21.2$ & $[18.90, 23.46]$ & $<0.001$ \\
+4 & 69.5 & 80.2 & $+10.7$ & $[8.63, 12.79]$ & $<0.001$ \\
+5 & 96.6 & 98.0 & $+1.4$ & $[0.51, 2.35]$ & 0.003 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,21 @@
+Create one additional evidence passage for a RAG knowledge base.
+
+Question: {question}
+Correct answer: {correct}
+Reference evidence:
+{reference}
+
+Already accepted passages; do not copy their wording:
+{existing}
+
+Requirements:
+- Write one neutral factual paragraph of 25 to 80 words.
+- The paragraph must contain the literal exact answer exactly as written: {correct}
+- Do not spell out a digit answer or replace a short answer such as "no" with a synonym.
+- Ground the paragraph in the reference evidence and keep it directly relevant to the question.
+- Do not include the string {target}.
+- Do not give instructions to a model and do not discuss attacks, prompts, or augmentation.
+- Return only a JSON array containing this one string.
+
+Missing document slot: {slot}; attempt: {attempt}
+

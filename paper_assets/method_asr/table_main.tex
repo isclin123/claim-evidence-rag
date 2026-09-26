@@ -1,0 +1,27 @@
+% Requires \usepackage{booktabs} in the preamble.
+\begin{table}[htbp]
+  \centering
+  \caption{ASR (\%) of Claim--Evidence, PoisonedRAG, and CorruptRAG-AS,
+with one poisoned document placed first among five supplied documents.
+Each dataset-specific entry aggregates 2,400 responses over 100 questions,
+eight models, and three seeds. Overall averages the three datasets
+(7,200 responses), using the aggregation described in
+Section~\ref{sec:experimental_setup}.
+Bold indicates the highest ASR in each column.}
+  \label{tab:method_asr}
+  \small
+  \setlength{\tabcolsep}{4pt}
+  \begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}l*{8}{c}@{}}
+    \toprule
+    & \multicolumn{4}{c}{Irrelevant benign context}
+    & \multicolumn{4}{c}{Answer-bearing benign context} \\
+    \cmidrule(lr){2-5} \cmidrule(lr){6-9}
+    Method & NQ & HotpotQA & MS MARCO & Overall
+           & NQ & HotpotQA & MS MARCO & Overall \\
+    \midrule
+    Claim--Evidence & \textbf{87.17} & \textbf{89.04} & \textbf{85.21} & \textbf{87.14} & \textbf{31.25} & \textbf{47.67} & 30.67 & \textbf{36.53} \\
+    CorruptRAG-AS & 77.96 & 84.33 & 77.54 & 79.94 & 31.08 & 43.50 & \textbf{31.67} & 35.42 \\
+    PoisonedRAG & 66.08 & 75.13 & 65.33 & 68.85 & 9.79 & 21.67 & 11.04 & 14.17 \\
+    \bottomrule
+  \end{tabular*}
+\end{table}

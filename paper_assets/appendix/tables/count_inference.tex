@@ -1,0 +1,21 @@
+\begin{table}[!htbp]
+\centering
+\caption{Paired Claim--Evidence minus PoisonedRAG effects by poison count, in percentage points.}
+\label{tab:apx_count_ci}
+\begingroup\fontsize{9}{10.8}\selectfont
+\setlength{\tabcolsep}{4.0pt}
+\renewcommand{\arraystretch}{1.13}
+\begin{tabular}{@{}rrrrr@{}}
+\toprule
+$m$ & Difference & Pointwise 95\% CI & Simultaneous 95\% CI & $p_H$ \\
+\midrule
+1 & +22.49 & $[20.19, 24.79]$ & $[19.22, 25.75]$ & $<0.001$ \\
+2 & +26.53 & $[24.24, 28.92]$ & $[23.24, 29.81]$ & $<0.001$ \\
+3 & +21.19 & $[18.90, 23.46]$ & $[17.95, 24.44]$ & $<0.001$ \\
+4 & +10.67 & $[8.63, 12.79]$ & $[7.71, 13.62]$ & $<0.001$ \\
+5 & +1.39 & $[0.51, 2.35]$ & $[0.08, 2.70]$ & 0.003 \\
+\bottomrule
+\end{tabular}
+\endgroup
+\par\vspace{4pt}\begin{minipage}{\linewidth}\footnotesize Each condition uses 300 questions, eight models, and three seeds. Poisons appear first. The original ten-comparison Holm family is retained; five auxiliary contrasts are not displayed. Both interval types use question clusters and the frozen resampling protocol. At $m=5$, no benign document remains.\end{minipage}
+\end{table}

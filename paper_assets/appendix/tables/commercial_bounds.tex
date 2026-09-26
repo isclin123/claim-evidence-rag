@@ -1,0 +1,18 @@
+\begin{table}[!htbp]
+\centering
+\caption{ASR bounds for the two missing commercial responses.}
+\label{tab:commercial_bounds}
+\begingroup\fontsize{9}{10.8}\selectfont
+\setlength{\tabcolsep}{4.0pt}
+\renewcommand{\arraystretch}{1.13}
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Condition & Missing & Planned $n$ & Lower ASR (\%) & Upper ASR (\%) \\
+\midrule
+Claude, PR, $m=1$ & 1 & 60 & 58.33 & 60.00 \\
+Claude, PR, $m=5$ & 1 & 60 & 93.33 & 95.00 \\
+\bottomrule
+\end{tabular}
+\endgroup
+\par\vspace{4pt}\begin{minipage}{\linewidth}\footnotesize PR = PoisonedRAG. Bounds divide by the 60 scheduled responses and assign the missing outcome a miss (lower) or a hit (upper). They are sensitivity bounds, not observed ASR or confidence intervals. All other tables use observed valid responses or complete pairs as indicated.\end{minipage}
+\end{table}

@@ -1,0 +1,11 @@
+{
+  "asset": "method_asr",
+  "package_sources": [
+    "results/expected_asr.json",
+    "results/responses/natural.jsonl.gz",
+    "results/responses/answer_bearing.jsonl.gz"
+  ],
+  "command": "python tools/reproduce.py --statistics",
+  "scope": "Main manuscript or a supplement explicitly referenced there.",
+  "statistics_note": "Frozen full-family calibration is retained; see REPRODUCIBILITY.md."
+}

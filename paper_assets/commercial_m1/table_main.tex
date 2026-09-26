@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\caption{Attack success rate on three black-box commercial services at one poisoned document placed first, in the answer-bearing benign context.}
+\label{tab:commercial_k1}
+\small\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{@{}llccc@{}}
+\toprule
+Service & Interface & PoisonedRAG & Claim--Evidence & $\Delta$ paired [95\% CI] \\
+\midrule
+GPT-6 Astra & Codex CLI, medium effort & 5/60 (8.3) & 10/60 (16.7) & $+8.3$pp [$-1.7$, 18.3] \\
+Claude Opus 5 & Web chat, high effort & 35/59 (59.3) & 51/60 (85.0) & $+25.4$pp [13.6, 37.3] \\
+DeepSeek V4.1 Flash & Web, thinking off & 2/60 (3.3) & 12/60 (20.0) & $+16.7$pp [8.3, 26.7] \\
+\bottomrule
+\end{tabular}
+\end{table}

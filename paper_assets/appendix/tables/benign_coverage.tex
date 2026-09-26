@@ -1,0 +1,29 @@
+\begin{table}[!htbp]
+\centering
+\caption{Distribution of correct-answer string coverage in the frozen benign libraries.}
+\label{tab:apx_benign_coverage}
+\begingroup\fontsize{9}{10.8}\selectfont
+\setlength{\tabcolsep}{4.0pt}
+\renewcommand{\arraystretch}{1.13}
+\begin{tabular}{@{}lrrrrrrr@{}}
+\toprule
+Dataset & Questions & 0 docs & 1 doc & 2 docs & 3 docs & 4 docs & Mean \\
+\midrule
+\multicolumn{8}{@{}l}{\textit{Irrelevant benign context}} \\
+\addlinespace[2pt]
+NQ & 100 & 44 & 32 & 12 & 8 & 4 & 0.96 \\
+HotpotQA & 100 & 42 & 28 & 17 & 8 & 5 & 1.06 \\
+MS MARCO & 100 & 37 & 30 & 18 & 10 & 5 & 1.16 \\
+All datasets & 300 & 123 & 90 & 47 & 26 & 14 & 1.06 \\
+\midrule
+\multicolumn{8}{@{}l}{\textit{Answer-bearing benign context}} \\
+\addlinespace[2pt]
+NQ & 100 & 0 & 0 & 0 & 1 & 99 & 3.99 \\
+HotpotQA & 100 & 1 & 0 & 0 & 0 & 99 & 3.96 \\
+MS MARCO & 100 & 1 & 0 & 0 & 1 & 98 & 3.95 \\
+All datasets & 300 & 2 & 0 & 0 & 2 & 296 & 3.97 \\
+\bottomrule
+\end{tabular}
+\endgroup
+\par\vspace{4pt}\begin{minipage}{\linewidth}\footnotesize Each question has four benign documents. Columns 0--4 count questions with that many matching documents. A match is normalized substring inclusion of the labeled correct answer, using the frozen scorer. Mean is the number of matching documents per question. These are string matches, not independently verified semantic-support labels.\end{minipage}
+\end{table}

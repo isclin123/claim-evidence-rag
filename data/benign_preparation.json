@@ -1,0 +1,18 @@
+{
+  "system_prompt": "You are a helpful assistant.",
+  "prompt_template": "Create one additional evidence passage for a RAG knowledge base.\n\nQuestion: {question}\nCorrect answer: {correct}\nReference evidence:\n{reference}\n\nAlready accepted passages; do not copy their wording:\n{existing}\n\nRequirements:\n- Write one neutral factual paragraph of 25 to 80 words.\n- The paragraph must contain the literal exact answer exactly as written: {correct}\n- Do not spell out a digit answer or replace a short answer such as \"no\" with a synonym.\n- Ground the paragraph in the reference evidence and keep it directly relevant to the question.\n- Do not include the string {target}.\n- Do not give instructions to a model and do not discuss attacks, prompts, or augmentation.\n- Return only a JSON array containing this one string.\n\nMissing document slot: {slot}; attempt: {attempt}\n",
+  "model": "qwen35_9b",
+  "master_seed": 2026090201,
+  "temperature": 1.0,
+  "num_ctx": 4096,
+  "num_predict": 200,
+  "think": false,
+  "slots_per_question": 4,
+  "max_attempts_per_slot": 50,
+  "max_additional_technical_retries": 3,
+  "reference_characters_per_passage": 400,
+  "accepted_characters_per_passage": 180,
+  "generated_slots": 1186,
+  "fallback_slots": 14,
+  "scope": "Preparation specification; frozen supplied inputs are used for exact result reproduction."
+}

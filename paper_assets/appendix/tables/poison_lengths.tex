@@ -1,0 +1,21 @@
+\begin{table}[!htbp]
+\centering
+\caption{Poisoned-document lengths in whitespace-delimited words.}
+\label{tab:apx_poison_lengths}
+\begingroup\fontsize{9}{10.8}\selectfont
+\setlength{\tabcolsep}{4.0pt}
+\renewcommand{\arraystretch}{1.13}
+\begin{tabular}{@{}lrrrrrr@{}}
+\toprule
+Construction & \multicolumn{3}{c}{First document per question} & \multicolumn{3}{c}{All stored documents} \\
+\midrule
+ & Count & Mean & Range & Count & Mean & Range \\
+\midrule
+PoisonedRAG & 300 & 38.00 & 26--68 & 1500 & 38.20 & 25--68 \\
+Claim--Evidence & 300 & 45.60 & 33--75 & 1500 & 45.79 & 32--78 \\
+CorruptRAG-AS & 300 & 33.71 & 25--60 & 300 & 33.71 & 25--60 \\
+\bottomrule
+\end{tabular}
+\endgroup
+\par\vspace{4pt}\begin{minipage}{\linewidth}\footnotesize The first-document summaries cover 300 questions. The full PoisonedRAG and Claim--Evidence libraries contain five ordered documents per question; CorruptRAG-AS contains one. Claim--Evidence is limited to 120 words after template substitution; none of its 1,500 stored documents was truncated. The other two constructions do not use this truncation rule.\end{minipage}
+\end{table}

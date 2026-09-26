@@ -1,0 +1,425 @@
+{
+  "sampling_rule": "SHA256(BB60-v1|20260912|dataset|query_id), ascending; first 20 per dataset",
+  "rows": [
+    {
+      "sample_id": "S001",
+      "dataset": "nq",
+      "query_id": "test400",
+      "sampling_rank": 1,
+      "sampling_hash": "0795b4f64e3bd347c2c91b7839d6e4229e3f41914960b4d8eff718f91a9fcf60"
+    },
+    {
+      "sample_id": "S002",
+      "dataset": "nq",
+      "query_id": "test156",
+      "sampling_rank": 2,
+      "sampling_hash": "087e75e403393bb1c85b8e69838f1a852f58fd52bcaa5bbac2b5caec3b7f6940"
+    },
+    {
+      "sample_id": "S003",
+      "dataset": "nq",
+      "query_id": "test208",
+      "sampling_rank": 3,
+      "sampling_hash": "08bd77306dea5c752790748ec1ad7bf648c14394b98ecff9e068070f29cb2d66"
+    },
+    {
+      "sample_id": "S004",
+      "dataset": "nq",
+      "query_id": "test464",
+      "sampling_rank": 4,
+      "sampling_hash": "08f3ebff03a62b30d0ae149bdfe20545068c985e9619910721d65d811892f56b"
+    },
+    {
+      "sample_id": "S005",
+      "dataset": "nq",
+      "query_id": "test19",
+      "sampling_rank": 5,
+      "sampling_hash": "0ab852d1db1d66fb2bece178a6b50e6858548d9c08a1fedc1cce15d49b288d2b"
+    },
+    {
+      "sample_id": "S006",
+      "dataset": "nq",
+      "query_id": "test226",
+      "sampling_rank": 6,
+      "sampling_hash": "1058ca9ae91e97bd7fa1328381ce6b194bc2935b4aafa78c7dc22832e15c5625"
+    },
+    {
+      "sample_id": "S007",
+      "dataset": "nq",
+      "query_id": "test107",
+      "sampling_rank": 7,
+      "sampling_hash": "15a5fda67c61c1f4751e6b0d873683e7889b5db820f9777439381f5cea4ca0ab"
+    },
+    {
+      "sample_id": "S008",
+      "dataset": "nq",
+      "query_id": "test228",
+      "sampling_rank": 8,
+      "sampling_hash": "1871302d391858cda28bbdb9bb9cd53a24369f0a5e99567de7abac11a1324bdb"
+    },
+    {
+      "sample_id": "S009",
+      "dataset": "nq",
+      "query_id": "test90",
+      "sampling_rank": 9,
+      "sampling_hash": "18ebf56ebea0bd2a6e3d2adb637ac5dcc527d7f112a8989a775acdd40ba6e07d"
+    },
+    {
+      "sample_id": "S010",
+      "dataset": "nq",
+      "query_id": "test50",
+      "sampling_rank": 10,
+      "sampling_hash": "1d66697925a0f2f9dc4aaf9e0b3f3b415d749335fa4aef674ce977c13eb34768"
+    },
+    {
+      "sample_id": "S011",
+      "dataset": "nq",
+      "query_id": "test152",
+      "sampling_rank": 11,
+      "sampling_hash": "22518e91b9162c148e340a97fdb3031df4b7a5a3c9c62b6644279a297505bb8e"
+    },
+    {
+      "sample_id": "S012",
+      "dataset": "nq",
+      "query_id": "test70",
+      "sampling_rank": 12,
+      "sampling_hash": "28f7769c738a11e90ed91a9eb0d28dcdbf75eaf570dd74fdaa219c01a295f88c"
+    },
+    {
+      "sample_id": "S013",
+      "dataset": "nq",
+      "query_id": "test327",
+      "sampling_rank": 13,
+      "sampling_hash": "29922d1d13fbdf1eae657eccdb8b4b682060ff4d5b3874b5405e6b3c952927c8"
+    },
+    {
+      "sample_id": "S014",
+      "dataset": "nq",
+      "query_id": "test454",
+      "sampling_rank": 14,
+      "sampling_hash": "2af25a6a13576c8871a45adf974561007007644edb7379e9ea9e49b5200a4af1"
+    },
+    {
+      "sample_id": "S015",
+      "dataset": "nq",
+      "query_id": "test410",
+      "sampling_rank": 15,
+      "sampling_hash": "2d03ad3acbcfa5af6ad35a1e5adaba917403ba4a1cb5dd0ca7979432c82ca761"
+    },
+    {
+      "sample_id": "S016",
+      "dataset": "nq",
+      "query_id": "test47",
+      "sampling_rank": 16,
+      "sampling_hash": "2e059bed87d357c0e4c73cf9aada5e38954b142be0031c691173ab4dccfa9350"
+    },
+    {
+      "sample_id": "S017",
+      "dataset": "nq",
+      "query_id": "test16",
+      "sampling_rank": 17,
+      "sampling_hash": "2fdb4122cdcbfba80d2b105fd349281d6bea3574a98a00c82b0d1431a2576255"
+    },
+    {
+      "sample_id": "S018",
+      "dataset": "nq",
+      "query_id": "test332",
+      "sampling_rank": 18,
+      "sampling_hash": "32030d54ac5fb9c19213ae986b2482db2fecc9f97e4bcb6e50fdb354c69cf3e7"
+    },
+    {
+      "sample_id": "S019",
+      "dataset": "nq",
+      "query_id": "test294",
+      "sampling_rank": 19,
+      "sampling_hash": "32ee6236dd5107653efcf17a0d19d6bb8ad7d6fc9c3aa2edc2c4a7fccc7cd873"
+    },
+    {
+      "sample_id": "S020",
+      "dataset": "nq",
+      "query_id": "test371",
+      "sampling_rank": 20,
+      "sampling_hash": "3709f30277fdbc152e774c56d2353a65f3ffb96e3cf5b6462252c837ed655de2"
+    },
+    {
+      "sample_id": "S021",
+      "dataset": "hotpotqa",
+      "query_id": "5abd259d55429924427fcf1a",
+      "sampling_rank": 1,
+      "sampling_hash": "04db28e0e69cd95e122335fab8c3dee5ae916598f0e0c8598ae73e2925bd5912"
+    },
+    {
+      "sample_id": "S022",
+      "dataset": "hotpotqa",
+      "query_id": "5a77724455429972597f153e",
+      "sampling_rank": 2,
+      "sampling_hash": "065ed533f360af61e7bdfcff6dd371c8ef835a2c7fc34be704e8e5c4cf1dfa6f"
+    },
+    {
+      "sample_id": "S023",
+      "dataset": "hotpotqa",
+      "query_id": "5a713a5a5542994082a3e6a9",
+      "sampling_rank": 3,
+      "sampling_hash": "08b127f267a617da219f426d18b6fc257bc58e51003ef2e14468e52d936e33bf"
+    },
+    {
+      "sample_id": "S024",
+      "dataset": "hotpotqa",
+      "query_id": "5ac2659b55429963665199a1",
+      "sampling_rank": 4,
+      "sampling_hash": "0a4c12aeb5f54a98f17fabf591b32ffa5a85f6373993b78af68424ed5eff9748"
+    },
+    {
+      "sample_id": "S025",
+      "dataset": "hotpotqa",
+      "query_id": "5abd2eab5542992ac4f38210",
+      "sampling_rank": 5,
+      "sampling_hash": "0b5edbf3d791c555a518a83c406d2883e8a01e312e86f1c4b65afe2a8143a031"
+    },
+    {
+      "sample_id": "S026",
+      "dataset": "hotpotqa",
+      "query_id": "5a78bd9b554299078472774a",
+      "sampling_rank": 6,
+      "sampling_hash": "0f58035db936131d74bd5d765bb7d444816ad33524afdd6ee28f8477e91b88a4"
+    },
+    {
+      "sample_id": "S027",
+      "dataset": "hotpotqa",
+      "query_id": "5a7be2595542997c3ec972ac",
+      "sampling_rank": 7,
+      "sampling_hash": "0fb08df2be9868ddcfce956f968f4530beaae9722e0e0c537cecba8e346ff96d"
+    },
+    {
+      "sample_id": "S028",
+      "dataset": "hotpotqa",
+      "query_id": "5ae7e1fc55429952e35ea9cc",
+      "sampling_rank": 8,
+      "sampling_hash": "10bea20457c722392a8f93d494d188e3f8a0abb917ea07bf3aeda770ba964437"
+    },
+    {
+      "sample_id": "S029",
+      "dataset": "hotpotqa",
+      "query_id": "5ab6ba245542995eadef007f",
+      "sampling_rank": 9,
+      "sampling_hash": "110595f9c23001797c3c4d622a7bd07794c0a545152c6f9dc8e6300183854cb3"
+    },
+    {
+      "sample_id": "S030",
+      "dataset": "hotpotqa",
+      "query_id": "5adef80b5542993a75d263c4",
+      "sampling_rank": 10,
+      "sampling_hash": "121cad90ece42912695745a6065a032fe0cf7e4909d2bd7e2ed28e491c69a888"
+    },
+    {
+      "sample_id": "S031",
+      "dataset": "hotpotqa",
+      "query_id": "5ab29c24554299449642c932",
+      "sampling_rank": 11,
+      "sampling_hash": "13f5e457c0e5a1eb0185c1328ed0eab8e4462ac5ccbf3e83c0037c97c0e05b54"
+    },
+    {
+      "sample_id": "S032",
+      "dataset": "hotpotqa",
+      "query_id": "5ae6050f55429929b0807a5e",
+      "sampling_rank": 12,
+      "sampling_hash": "183b1074985279c9d8e72b70ad6a3e5a767f9f9d9d984331ac267d198b55a366"
+    },
+    {
+      "sample_id": "S033",
+      "dataset": "hotpotqa",
+      "query_id": "5ae22b8d554299234fd0440f",
+      "sampling_rank": 13,
+      "sampling_hash": "18df54175b043a025a35f378d3512fe01f663ff05a8e1ce8dde7f5a8d279ba03"
+    },
+    {
+      "sample_id": "S034",
+      "dataset": "hotpotqa",
+      "query_id": "5ae4a3265542995ad6573de5",
+      "sampling_rank": 14,
+      "sampling_hash": "1ae14690e961cb67205f3638dc585130ced5fb481b39264f003d2c2deb3ccbd1"
+    },
+    {
+      "sample_id": "S035",
+      "dataset": "hotpotqa",
+      "query_id": "5adf3e355542993a75d26440",
+      "sampling_rank": 15,
+      "sampling_hash": "1baf7d72f1c715ba1a47b4e34be4d75678d3ea3de90a4e29c015ba427ccf2d5f"
+    },
+    {
+      "sample_id": "S036",
+      "dataset": "hotpotqa",
+      "query_id": "5ab2c5e255429916697740ba",
+      "sampling_rank": 16,
+      "sampling_hash": "1d4c3380f55a4dbeeb177fc81c69c7232ddc01daeb18f3c77ee518a552d3e968"
+    },
+    {
+      "sample_id": "S037",
+      "dataset": "hotpotqa",
+      "query_id": "5adbf0a255429947ff17385a",
+      "sampling_rank": 17,
+      "sampling_hash": "225c01e6cde58de8faacbf6b19bcdafa09b0886fc5d9fa2b8d4a15c1222d8c54"
+    },
+    {
+      "sample_id": "S038",
+      "dataset": "hotpotqa",
+      "query_id": "5aba749055429901930fa7d8",
+      "sampling_rank": 18,
+      "sampling_hash": "25679e6f3b050a2d91bcba211b23672b08984c4cd23cf1d05def8fec397027c6"
+    },
+    {
+      "sample_id": "S039",
+      "dataset": "hotpotqa",
+      "query_id": "5a7d19d85542995ed0d165e8",
+      "sampling_rank": 19,
+      "sampling_hash": "258d864e568afcb0c41cffa12e1ac4c43091a3d56913036ec77bced705be2a0c"
+    },
+    {
+      "sample_id": "S040",
+      "dataset": "hotpotqa",
+      "query_id": "5abd01205542992ac4f3819b",
+      "sampling_rank": 20,
+      "sampling_hash": "25b17176d0bf7e780a98d6bc6e6a890e2bb8de428f1191584120dc986f547762"
+    },
+    {
+      "sample_id": "S041",
+      "dataset": "msmarco",
+      "query_id": "429677",
+      "sampling_rank": 1,
+      "sampling_hash": "03021162f04d8a52f172e7097116e77ed1b9fe406418813e56c6769c7c1b27a0"
+    },
+    {
+      "sample_id": "S042",
+      "dataset": "msmarco",
+      "query_id": "1163719",
+      "sampling_rank": 2,
+      "sampling_hash": "0c64cda7b16b8e822befefcba4e9b9f85a93b2f38a9c1b5d3849e6c302ed1556"
+    },
+    {
+      "sample_id": "S043",
+      "dataset": "msmarco",
+      "query_id": "614007",
+      "sampling_rank": 3,
+      "sampling_hash": "0d7b13c18f5afd8fd096bb3fa3e0ffbb07b684a4ee685452ed836381407ba7ae"
+    },
+    {
+      "sample_id": "S044",
+      "dataset": "msmarco",
+      "query_id": "1164451",
+      "sampling_rank": 4,
+      "sampling_hash": "112a312694fdb9b541586a93d5a738704a751d4241d064a83cc17d93e4375f40"
+    },
+    {
+      "sample_id": "S045",
+      "dataset": "msmarco",
+      "query_id": "77753",
+      "sampling_rank": 5,
+      "sampling_hash": "132f9f64ddd88ca79534f679efe7c42114a4b3c9364c46bb4262383c24bb7f0d"
+    },
+    {
+      "sample_id": "S046",
+      "dataset": "msmarco",
+      "query_id": "413229",
+      "sampling_rank": 6,
+      "sampling_hash": "1335b6cc0d037840b6ff53d3206178cf2b2ba07c628b571d70fb78a142749c90"
+    },
+    {
+      "sample_id": "S047",
+      "dataset": "msmarco",
+      "query_id": "1163605",
+      "sampling_rank": 7,
+      "sampling_hash": "144e6a250f96326db862dd8d07ef3feb74061f735d7f62631713c6cca1fbc42a"
+    },
+    {
+      "sample_id": "S048",
+      "dataset": "msmarco",
+      "query_id": "1163769",
+      "sampling_rank": 8,
+      "sampling_hash": "1a4c9daafee6ac9fc0f5d6cc4e35d817d6dafb0b1ef6c1f1d3ae46123ebc3287"
+    },
+    {
+      "sample_id": "S049",
+      "dataset": "msmarco",
+      "query_id": "1164044",
+      "sampling_rank": 9,
+      "sampling_hash": "1bf19cf98925398a3164820e888578a20b4994f5c3a4bc5f42413e5073362394"
+    },
+    {
+      "sample_id": "S050",
+      "dataset": "msmarco",
+      "query_id": "1164733",
+      "sampling_rank": 10,
+      "sampling_hash": "1cc2ca7d925613a9f064aa0bd3191927e79d439f68299701011d3a81a6585957"
+    },
+    {
+      "sample_id": "S051",
+      "dataset": "msmarco",
+      "query_id": "592724",
+      "sampling_rank": 11,
+      "sampling_hash": "205253b0f39ced32ccdd82f86fb92184357824e3dd9314ceb612362a2dab79d1"
+    },
+    {
+      "sample_id": "S052",
+      "dataset": "msmarco",
+      "query_id": "412652",
+      "sampling_rank": 12,
+      "sampling_hash": "212464ec261763940f667c385e1baa8cb13930c88a87894046b0fc83ed958517"
+    },
+    {
+      "sample_id": "S053",
+      "dataset": "msmarco",
+      "query_id": "156641",
+      "sampling_rank": 13,
+      "sampling_hash": "215ad50b28427eada510f2c6994f39f3dbb8d634d33409f90940f09dbd1274b3"
+    },
+    {
+      "sample_id": "S054",
+      "dataset": "msmarco",
+      "query_id": "578174",
+      "sampling_rank": 14,
+      "sampling_hash": "271b3ab836a6f4ef362cd5409af2c004ebd42be3db9eed2088d1070507d8ff68"
+    },
+    {
+      "sample_id": "S055",
+      "dataset": "msmarco",
+      "query_id": "604961",
+      "sampling_rank": 15,
+      "sampling_hash": "278c3aff4e36a34eeecc1bc3e934dd1de6dec709f63270b05ab59e27732e21f6"
+    },
+    {
+      "sample_id": "S056",
+      "dataset": "msmarco",
+      "query_id": "422717",
+      "sampling_rank": 16,
+      "sampling_hash": "2874b78b781ee68a3dcb7cebd71acb79cb497aa9bb3aa6a8cbdca5fe79712a28"
+    },
+    {
+      "sample_id": "S057",
+      "dataset": "msmarco",
+      "query_id": "605134",
+      "sampling_rank": 17,
+      "sampling_hash": "2b9ed582bafc280deb3cf033b6e94dd2cc4029b5bd7d0c583405f8ad5f280b67"
+    },
+    {
+      "sample_id": "S058",
+      "dataset": "msmarco",
+      "query_id": "417354",
+      "sampling_rank": 18,
+      "sampling_hash": "2d69af071c810ae1bc25cbd3a9a9a709a060d25b10a9fa7ef029cc00a383ee28"
+    },
+    {
+      "sample_id": "S059",
+      "dataset": "msmarco",
+      "query_id": "612163",
+      "sampling_rank": 19,
+      "sampling_hash": "2d97df24ca204408d09d367f6f9fd5b0d1be315333a0f3f0a9ba08f124578b9c"
+    },
+    {
+      "sample_id": "S060",
+      "dataset": "msmarco",
+      "query_id": "614188",
+      "sampling_rank": 20,
+      "sampling_hash": "329ecec3151f57ae35b5f76871e5da4696790d3945a1020d40815ddccb6201b4"
+    }
+  ]
+}

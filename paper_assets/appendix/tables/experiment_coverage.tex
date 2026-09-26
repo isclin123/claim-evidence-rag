@@ -1,0 +1,22 @@
+\begin{table}[!htbp]
+\centering
+\caption{Coverage of the evaluation batches represented in this appendix.}
+\label{tab:apx_coverage}
+\begingroup\fontsize{9}{10.8}\selectfont
+\setlength{\tabcolsep}{4.0pt}
+\renewcommand{\arraystretch}{1.13}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{1.20in}>{\raggedright\arraybackslash}p{1.10in}>{\raggedright\arraybackslash}p{1.17in}rrr@{}}
+\toprule
+Evaluation & Constructions & Counts / positions & Questions & Models & Repeats \\
+\midrule
+Irrelevant context & PR, CE, CR & 1 poison, first & 300 & 8 & 3 \\
+Answer-bearing context & PR, CE, CR & 1 poison, first & 300 & 8 & 3 \\
+Poison count & PR, CE & $m=1,\ldots,5$; poisons first & 300 & 8 & 3 \\
+Single-poison position & PR, CE, CR & First, middle, last & 300 & 8 & 3 \\
+Complete ordering & CE & $m=1,\ldots,4$; all 30 patterns & 300 & 8 & 3 \\
+Commercial services & PR, CE & $m=1,\ldots,5$; poisons first & 60 & 3 & 1 \\
+\bottomrule
+\end{tabular}
+\endgroup
+\par\vspace{4pt}\begin{minipage}{\linewidth}\footnotesize PR = PoisonedRAG; CE = Claim--Evidence; CR = CorruptRAG-AS. All contexts contain five documents. Each full local condition contains 7,200 responses (300 questions, eight models, three seeds). Commercial repeats denote one response per service, question, construction, and count; missing responses are reported separately. All batches except the irrelevant-context batch use the answer-bearing benign library. Response batches are analyzed separately.\end{minipage}
+\end{table}

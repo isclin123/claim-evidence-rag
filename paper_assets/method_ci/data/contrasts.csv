@@ -1,0 +1,5 @@
+group,setting,family,condition,construction,label,baseline,effect_pp,pw_low,pw_high,sim_low,sim_high,holm_p,models,clusters,batch,status
+3,answer_bearing,D4-method,C06,Claim-Evidence,Claim-Evidence,PoisonedRAG,22.486111,20.194444,24.791667,19.224047,25.748175,0.00009999900,8,300,poison-count ladder,registered
+5,answer_bearing,posthoc-closest-by-position,C06,Claim-Evidence,$\pi$ = PBBBB,CorruptRAG-AS,0.805556,-1.916667,3.625000,,,0.58010420,8,300,position batch,exploratory
+5,answer_bearing,posthoc-closest-by-position,C06,Claim-Evidence,$\pi$ = BBPBB,CorruptRAG-AS,5.597222,2.944444,8.166667,,,0.00008999910,8,300,position batch,exploratory
+5,answer_bearing,posthoc-closest-by-position,C06,Claim-Evidence,$\pi$ = BBBBP,CorruptRAG-AS,5.708333,3.000000,8.527778,,,0.00009999900,8,300,position batch,exploratory

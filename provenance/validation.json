@@ -1,0 +1,129 @@
+{
+  "validated_at": "2026-09-25T22:05:22-04:00",
+  "manuscript": "ICLR_2027_Rag_Poisoning (15).pdf",
+  "standalone_outside_project": true,
+  "environment": {
+    "python": "3.13.11",
+    "numpy": "2.4.2",
+    "scipy": "1.17.1",
+    "matplotlib": "3.11.0",
+    "pandas": "3.0.3"
+  },
+  "verification": {
+    "reconstructed_documents": 3300,
+    "inputs": 300,
+    "methods": {
+      "C00": "PoisonedRAG",
+      "C06": "Claim-Evidence",
+      "C42": "CorruptRAG-AS"
+    },
+    "local_models": 8,
+    "batches": {
+      "natural": 21600,
+      "answer_bearing": 21600,
+      "count": 72000,
+      "position": 64800,
+      "ordering": 216000
+    },
+    "commercial_valid": 1798,
+    "commercial_blocked": 2,
+    "passed": true
+  },
+  "reproduction": {
+    "passed": true,
+    "local_responses": 396000,
+    "commercial_valid": 1798,
+    "commercial_blocked": 2,
+    "statistics_recomputed": true,
+    "family_calibration": "Auxiliary p values and reduced-family simultaneous critical values are frozen inputs.",
+    "table_1": "excluded by author instruction"
+  },
+  "paper_outputs": {
+    "passed": true,
+    "included_tables": 25,
+    "result_figures": 11,
+    "illustrative_figures": 1,
+    "excluded": [
+      "Figure 2",
+      "Table 1"
+    ],
+    "checked": [
+      "Table 2",
+      "Table 3",
+      "Table 4",
+      "Table 5",
+      "Table 6",
+      "Table 7",
+      "Table 8",
+      "Table 9",
+      "Table 10",
+      "Table 11",
+      "Table 12",
+      "Table 13",
+      "Table 14",
+      "Table 15",
+      "Table 16",
+      "Table 17",
+      "Table 18",
+      "Table 19",
+      "Table 20",
+      "Table 21",
+      "Table 22",
+      "Table 23",
+      "Table 24",
+      "Table 25",
+      "Table 26",
+      "Figure 1",
+      "Figure 3",
+      "Figure 4",
+      "Figure 5",
+      "Figure 6",
+      "Figure 7",
+      "Figure 8",
+      "Figure 9",
+      "Figure 10",
+      "Figure 11",
+      "Figure 12",
+      "Figure 13"
+    ],
+    "inventory_only": false,
+    "render_byte_differences": []
+  },
+  "pdf_numeric_rows_checked": 218,
+  "pdf_numeric_rows_matched": 218,
+  "result_figures_pixel_identical": 11,
+  "protected_files_unchanged": 19,
+  "rerun_fixture": {
+    "passed": true,
+    "dry_run_batches": 5,
+    "synthetic_http_calls": 3,
+    "real_model_calls": 0,
+    "resume_no_duplicates": true,
+    "resume_extension": true,
+    "response_corruption_rejected": true,
+    "existing_lock_rejected": true,
+    "digest_drift_rejected": true,
+    "partial_scoring_labeled": true
+  },
+  "real_model_reruns_performed": false,
+  "new_network_model_calls": 0,
+  "boundary": "Exact offline reproduction from frozen inputs/responses. Local generation runner verified with a synthetic localhost fixture. Full-family auxiliary calibration constants are retained, not re-estimated; commercial generation follows the recorded manual protocol.",
+  "delivery": "Folder only; ZIP removed at author request.",
+  "git_upload_check": {
+    "passed": true,
+    "tracked_files": 174,
+    "autocrlf": true,
+    "all_index_blob_sha256_match_files": true,
+    "git_lfs_used": false
+  },
+  "documentation_validation": {
+    "validated_at": "2026-09-25T22:22:51-04:00",
+    "content_files_updated": 6,
+    "executable_ast_unchanged": true,
+    "input_result_and_figure_files_byte_unchanged": 113,
+    "standalone_verification_passed": true,
+    "standalone_asr_reproduction_passed": true,
+    "statistics_recomputed_this_revision": false,
+    "scorer_note": "Module documentation updated; scoring logic and consistency vectors unchanged."
+  }
+}

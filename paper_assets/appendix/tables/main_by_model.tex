@@ -1,0 +1,27 @@
+\begin{table}[!htbp]
+\centering
+\caption{ASR (\%) by local model in the two benign-context settings.}
+\label{tab:apx_main_by_model}
+\begingroup\fontsize{9}{10.8}\selectfont
+\setlength{\tabcolsep}{4.0pt}
+\renewcommand{\arraystretch}{1.13}
+\begin{tabular}{@{}lrrrrrr@{}}
+\toprule
+Model & \multicolumn{3}{c}{Irrelevant} & \multicolumn{3}{c}{Answer-bearing} \\
+\midrule
+ & PR & CE & CR & PR & CE & CR \\
+Qwen3.5 9B & 74.56 & 81.56 & 80.56 & 26.33 & 32.44 & 21.56 \\
+Llama 3.1 8B & 61.11 & 91.44 & 83.00 & 15.00 & 50.00 & 49.67 \\
+Mistral 7B & 67.33 & 85.00 & 68.33 & 9.78 & 35.22 & 15.22 \\
+Qwen3 1.7B & 72.67 & 93.33 & 92.89 & 13.67 & 41.56 & 70.44 \\
+Qwen3 4B & 67.11 & 85.78 & 79.44 & 8.33 & 23.56 & 21.00 \\
+Qwen3 8B & 61.78 & 82.89 & 78.56 & 4.78 & 21.22 & 18.00 \\
+Llama 3.2 3B & 74.67 & 89.78 & 79.56 & 25.22 & 55.33 & 54.11 \\
+Gemma 3 4B & 71.56 & 87.33 & 77.22 & 10.22 & 32.89 & 33.33 \\
+\midrule
+Overall & 68.85 & 87.14 & 79.94 & 14.17 & 36.53 & 35.42 \\
+\bottomrule
+\end{tabular}
+\endgroup
+\par\vspace{4pt}\begin{minipage}{\linewidth}\footnotesize PR = PoisonedRAG; CE = Claim--Evidence; CR = CorruptRAG-AS. One poisoned document is first, followed by four benign documents. Each model-level cell aggregates 900 responses from 300 questions and three seeds. Overall weights the eight models equally (7,200 responses per method and environment). The two environments were evaluated in separate batches.\end{minipage}
+\end{table}

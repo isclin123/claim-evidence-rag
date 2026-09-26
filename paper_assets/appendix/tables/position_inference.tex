@@ -1,0 +1,37 @@
+\begin{table}[!htbp]
+\centering
+\caption{Paired document-position contrasts, in percentage points.}
+\label{tab:position_ci}
+\begingroup\fontsize{9}{10.8}\selectfont
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.13}
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Pattern contrast & Difference & Pointwise 95\% CI & Simultaneous 95\% CI & $p_H$ \\
+\midrule
+\multicolumn{5}{@{}l}{\textit{Single-poison position batch: Claim--Evidence}} \\
+\addlinespace[2pt]
+\texttt{BBPBB} $-$ \texttt{PBBBB} & +2.10 & $[-0.24, 4.43]$ & $[-1.24, 5.44]$ & 0.084 \\
+\texttt{BBBBP} $-$ \texttt{PBBBB} & +25.24 & $[22.24, 28.24]$ & $[20.95, 29.52]$ & $<0.001$ \\
+\midrule
+\multicolumn{5}{@{}l}{\textit{Single-poison position batch: CorruptRAG-AS}} \\
+\addlinespace[2pt]
+\texttt{BBPBB} $-$ \texttt{PBBBB} & -2.69 & $[-4.76, -0.57]$ & $[-5.68, 0.29]$ & 0.039 \\
+\texttt{BBBBP} $-$ \texttt{PBBBB} & +20.33 & $[17.92, 22.68]$ & $[16.99, 23.67]$ & $<0.001$ \\
+\midrule
+\multicolumn{5}{@{}l}{\textit{Single-poison position batch: PoisonedRAG}} \\
+\addlinespace[2pt]
+\texttt{BBPBB} $-$ \texttt{PBBBB} & +0.89 & $[-0.78, 2.57]$ & $[-1.02, 2.80]$ & 0.299 \\
+\texttt{BBBBP} $-$ \texttt{PBBBB} & +20.67 & $[18.21, 23.18]$ & $[17.86, 23.47]$ & $<0.001$ \\
+\midrule
+\multicolumn{5}{@{}l}{\textit{Complete-ordering batch: Claim--Evidence}} \\
+\addlinespace[2pt]
+\texttt{BBBBP} $-$ \texttt{PBBBB} & +25.63 & $[22.68, 28.64]$ & $[21.88, 29.37]$ & $<0.001$ \\
+\texttt{BBBPP} $-$ \texttt{PPBBB} & +19.51 & $[16.76, 22.21]$ & $[16.13, 22.90]$ & $<0.001$ \\
+\texttt{BBPPP} $-$ \texttt{PPPBB} & +15.39 & $[13.31, 17.53]$ & $[12.77, 18.01]$ & $<0.001$ \\
+\texttt{BPPPP} $-$ \texttt{PPPPB} & +11.68 & $[9.82, 13.57]$ & $[9.33, 14.03]$ & $<0.001$ \\
+\bottomrule
+\end{tabular}
+\endgroup
+\par\vspace{4pt}\begin{minipage}{\linewidth}\footnotesize P and B denote poisoned and benign documents, with within-type order fixed. Each cell has 300 questions, eight models, and three seeds. Contrasts use 300 paired question clusters. The two response batches remain separate. Claim--Evidence and CorruptRAG-AS single-poison movements belong to the twelve-item registered family; PoisonedRAG movements form a two-item secondary family. The four ordering contrasts form their own registered family. All original family sizes and simultaneous critical values are retained.\end{minipage}
+\end{table}

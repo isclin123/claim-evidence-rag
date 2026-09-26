@@ -1,0 +1,19 @@
+\begin{table}[!htbp]
+\centering
+\caption{Benign-document lengths in whitespace-delimited words.}
+\label{tab:apx_benign_lengths}
+\begingroup\fontsize{9}{10.8}\selectfont
+\setlength{\tabcolsep}{4.0pt}
+\renewcommand{\arraystretch}{1.13}
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+Source & Documents & Mean & Min. & Median & Max. \\
+\midrule
+Retrieved benign library & 1200 & 74.32 & 0 & 63.00 & 361 \\
+Generated answer-bearing passages & 1186 & 32.81 & 25 & 32.00 & 77 \\
+Clean-corpus fallback passages & 14 & 85.07 & 22 & 73.50 & 217 \\
+\bottomrule
+\end{tabular}
+\endgroup
+\par\vspace{4pt}\begin{minipage}{\linewidth}\footnotesize The answer-bearing library combines generated passages and clean-corpus fallback passages. The 25--80-word generation check applies to generated passages, not to retrieved fallback text.\end{minipage}
+\end{table}

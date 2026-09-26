@@ -1,0 +1,131 @@
+{
+  "figure": "count_ladder",
+  "generated_at": "2026-09-24T23:15:00-04:00",
+  "source_csv": [
+    "data/ladder.csv",
+    "data/per_model_gap.csv"
+  ],
+  "source_csv_sha256": {
+    "ladder.csv": "7ac96da22decbbdad63acd22200d594e0e5a92cf443e5db1c4d5709e6b230b3c",
+    "per_model_gap.csv": "81edc8c4d75d1e584efba4cd532e7b7b1c3e4d70f9ed0bbf53f0bcf42c1164fb"
+  },
+  "constructions_shown": [
+    "Claim-Evidence",
+    "PoisonedRAG"
+  ],
+  "constructions_in_data_not_shown": [],
+  "colour_rule": "panel (a) uses figstyle.METHOD_COLORS, the same colour each construction has in every figure; panel (b) carries models, not methods, so its lines are neutral grey and the mean line carries the Claim-Evidence colour, because that is whose margin it is",
+  "panel_a_values_pp": {
+    "Claim-Evidence": {
+      "1": 36.79,
+      "2": 54.14,
+      "3": 69.5,
+      "4": 80.19,
+      "5": 98.01
+    },
+    "PoisonedRAG": {
+      "1": 14.31,
+      "2": 27.61,
+      "3": 48.31,
+      "4": 69.53,
+      "5": 96.63
+    }
+  },
+  "panel_b_values_pp": {
+    "mean_pp": {
+      "1": 22.49,
+      "2": 26.53,
+      "3": 21.19,
+      "4": 10.67,
+      "5": 1.39
+    },
+    "per_model_pp": {
+      "Qwen3.5 9B": {
+        "1": 8.33,
+        "2": 3.56,
+        "3": -1.11,
+        "4": -4.0,
+        "5": 0.78
+      },
+      "Llama 3.1 8B": {
+        "1": 34.56,
+        "2": 38.22,
+        "3": 41.44,
+        "4": 30.67,
+        "5": 1.78
+      },
+      "Mistral 7B": {
+        "1": 25.11,
+        "2": 32.11,
+        "3": 21.0,
+        "4": 11.33,
+        "5": 1.67
+      },
+      "Qwen3 1.7B": {
+        "1": 28.0,
+        "2": 42.89,
+        "3": 28.33,
+        "4": 8.44,
+        "5": 1.56
+      },
+      "Qwen3 4B": {
+        "1": 15.89,
+        "2": 20.0,
+        "3": 20.56,
+        "4": 12.56,
+        "5": 3.0
+      },
+      "Qwen3 8B": {
+        "1": 15.67,
+        "2": 23.33,
+        "3": 15.0,
+        "4": 0.33,
+        "5": 1.89
+      },
+      "Llama 3.2 3B": {
+        "1": 29.89,
+        "2": 24.33,
+        "3": 22.89,
+        "4": 16.44,
+        "5": -2.0
+      },
+      "Gemma 3 4B": {
+        "1": 22.44,
+        "2": 27.78,
+        "3": 21.44,
+        "4": 9.56,
+        "5": 2.44
+      }
+    },
+    "models_drawn": 8
+  },
+  "held_fixed": "answer-bearing benign context, poisoned documents first, five documents in total, eight models, three seeds",
+  "axis": {
+    "a": {
+      "y": "ASR (%)",
+      "range": [
+        0,
+        100
+      ]
+    },
+    "b": {
+      "y": "Claim-Evidence - PoisonedRAG (pp)",
+      "range": [
+        -10,
+        50
+      ],
+      "zero_line": true
+    },
+    "x": "poisoned document count k, 1 to 5, shared by both panels"
+  },
+  "value_label_precision": "1 decimal; panel (a) labels every point and panel (b) labels the mean at every count",
+  "model_labels": "deliberately absent: the panel is about the spread and where it closes; per-model values go to the appendix table",
+  "batch": "ladder batch PD-V4; its k = 1 readings differ from the construction-comparison batch by 0.14 and 0.26 pp",
+  "intervals": "none drawn; the registered paired contrasts belong in the appendix",
+  "files": {
+    "count_ladder.pdf": "dfe2f2d11d1757a83b0266d977a97153d16c4339d31ef692a21076f4d13da46b",
+    "count_ladder.svg": "447787d35d2edc12a2fddfdd759a0f755ba7e3dca7f637c4315cdcc8d22359d9",
+    "count_ladder.png": "e5b4c531e9cb93bdfd19b8aaf2e43e7f0478bc0fdfe8d824dcf3a0293d89ec2e"
+  },
+  "text_outside_canvas": []
+}

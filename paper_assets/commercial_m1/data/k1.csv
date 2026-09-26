@@ -1,0 +1,4 @@
+model_id,service,interface,frozen_entry_and_mode,first_submission_utc,last_completion_utc,c00_hits,c00_n,c00_asr_pp,c06_hits,c06_n,c06_asr_pp,pair_n,difference_pp,ci_low_pp,ci_high_pp,p_exact_mcnemar,p_holm25_preserved,significant_holm25
+M01,GPT-6 Astra,"Codex CLI, medium effort",Codex CLI / medium,2026-09-14T03:21:24.396964+00:00,2026-09-14T04:27:59.622681+00:00,5,60,8.3333,10,60,16.6667,60,8.3333,-1.6667,18.3333,0.1796875,1.0,False
+M02,Claude Opus 5,"Web chat, high effort",Claude web / High,2026-09-14T15:36:26.664000+00:00,2026-09-15T03:52:57.010Z,35,59,59.3220,51,60,85.0000,59,25.4237,13.5593,37.2881,0.000274658203125,0.006866455078125,True
+M03,DeepSeek V4.1 Flash,"Web, thinking off",DeepSeek web / thinking off,2026-09-14T18:07:10.417Z,2026-09-15T04:11:56.336Z,2,60,3.3333,12,60,20.0000,60,16.6667,8.3333,26.6667,0.001953125,0.046875,True
