@@ -1,5 +1,10 @@
 # Reproducibility scope
 
+The fourteen-method preliminary comparison is documented in
+[`preliminary/README.md`](preliminary/README.md). Its 100,800 responses and Excel
+tables form a separate batch. The batch definitions and statistical families
+below refer to the three-method follow-up experiments.
+
 ## Frozen inputs and batches
 
 The same 300 questions (100 each from NQ, HotpotQA and MS MARCO) are used

@@ -90,6 +90,8 @@ def main():
     assert keys=={(m,r['sample_id'],method,k) for m in ['M01','M02','M03']
                   for r in sample for method in ['original','claim_evidence'] for k in range(1,6)}
     subprocess.run([sys.executable,'-B',str(ROOT/'tools/verify_paper_outputs.py'),'--inventory-only'],check=True)
+    subprocess.run([sys.executable,'-B',str(ROOT/'preliminary/tools/verify.py')],check=True)
+    report['preliminary']=read_json(ROOT/'output/preliminary/verification.json')
     report.update(commercial_valid=valid,commercial_blocked=2,passed=True)
     write_json(ROOT/'output/verification.json',report)
     print('PASS',json.dumps(report))

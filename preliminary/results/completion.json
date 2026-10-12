@@ -1,0 +1,21 @@
+{
+  "status": "COMPLETE",
+  "methods": 14,
+  "questions": 300,
+  "models": 8,
+  "seeds": 3,
+  "verified_unique_slots": 100800,
+  "expected_slots": 100800,
+  "missing": 0,
+  "response_counts_by_model": {
+    "qwen35_9b": 12600,
+    "llama31_8b": 12600,
+    "mistral_7b": 12600,
+    "qwen3_1_7b": 12600,
+    "qwen3_4b": 12600,
+    "qwen3_8b": 12600,
+    "llama32_3b": 12600,
+    "gemma3_4b": 12600
+  },
+  "comparison": "Descriptive official substring ASR for the released fourteen-method panel."
+}

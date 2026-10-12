@@ -1,5 +1,10 @@
 # Data and reproduction contract
 
+The fourteen-method preliminary inputs and responses are under `preliminary/`.
+See [`preliminary/README.md`](preliminary/README.md) for its data schema,
+construction boundary and Excel reproduction command. The root-level files
+described below belong to the three-method follow-up batches.
+
 The package starts with the **actual frozen inputs used in the paper**. Full
 Wikipedia/MS MARCO corpora are not needed for the fixed-context experiments.
 `data/datasets.json` records the manuscript's corpus-size metadata; it is not

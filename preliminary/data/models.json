@@ -1,0 +1,34 @@
+{
+  "qwen35_9b": {
+    "tag": "qwen3.5:9b",
+    "digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7"
+  },
+  "llama31_8b": {
+    "tag": "llama3.1:8b",
+    "digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e"
+  },
+  "mistral_7b": {
+    "tag": "mistral:7b",
+    "digest": "6577803aa9a036369e481d648a2baebb381ebc6e897f2bb9a766a2aa7bfbc1cf"
+  },
+  "qwen3_1_7b": {
+    "tag": "qwen3:1.7b-q4_K_M",
+    "digest": "8f68893c685c3ddff2aa3fffce2aa60a30bb2da65ca488b61fff134a4d1730e7"
+  },
+  "qwen3_4b": {
+    "tag": "qwen3:4b-q4_K_M",
+    "digest": "2bfd38a7daaf4b1037efe517ccb73d1a3bbd4822cf89f1a82be1569050a114e0"
+  },
+  "qwen3_8b": {
+    "tag": "qwen3:8b-q4_K_M",
+    "digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41"
+  },
+  "llama32_3b": {
+    "tag": "llama3.2:3b-instruct-q4_K_M",
+    "digest": "a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72"
+  },
+  "gemma3_4b": {
+    "tag": "gemma3:4b-it-q4_K_M",
+    "digest": "a2af6cc3eb7fa8be8504abaf9b04e88f17a119ec3f04a3addf55f92841195f5a"
+  }
+}

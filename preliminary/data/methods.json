@@ -1,0 +1,16 @@
+{
+  "C00": "PoisonedRAG",
+  "C03": "instruction-aware",
+  "C04": "query-first",
+  "C05": "QA-fact",
+  "C06": "Claim-Evidence",
+  "C32": "M_full",
+  "C35": "L2_AB",
+  "C36": "L3_ABC",
+  "C37": "L4_ABC_just",
+  "C38": "PC_naturalized_M",
+  "C39": "PC_evidence_M",
+  "C40": "PC_scoped_reason_M",
+  "C41": "PC_repeat3_M",
+  "C42": "CorruptRAG-AS"
+}
