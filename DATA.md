@@ -51,7 +51,6 @@ uses decimal half-up formatting; descriptive tables and exploratory intervals
 retain their original formatting. Unrounded results remain available in JSON
 and CSV. Formatting never alters the scorer or inferential values.
 
-`provenance/source_hashes.json` records extraction-source hashes. Its source
-paths are provenance labels, not runtime dependencies. Only package-local
-inputs are read by the reviewer commands. Third-party dataset and model terms
-continue to apply; no new license to those materials is granted here.
+Only package-local inputs are read by the reviewer commands. Third-party
+dataset and model terms continue to apply; no new license to those materials
+is granted here.

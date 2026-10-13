@@ -45,7 +45,7 @@ def fmt_p(value: float) -> str:
 # A title plus the minimum that keeps the columns readable: what was held fixed,
 # how many responses, and which interval and test the last two columns are. The
 # reading of the numbers belongs in the body text, not here. The composition of
-# the Holm family and the batch discipline are recorded in caption.md and
+# the Holm family and the batch discipline are recorded in
 # table_checks.json, and the figure caption beside it carries the batch note.
 CAPTION = (
     r"\caption{Attack success rate at each poisoned-document count, with the paired "

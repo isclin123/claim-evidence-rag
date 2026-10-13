@@ -197,8 +197,8 @@ def main() -> None:
             ),
 
             "in_figure_title": (
-                "removed on user request; "
-                "topic is carried by caption.md"
+                "removed; the topic is carried by "
+                "the figure caption"
             ),
         },
     )
