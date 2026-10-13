@@ -1,4 +1,4 @@
-"""Table 2: corpus metadata and coverage recomputed from the frozen inputs."""
+"""Table 3: corpus metadata and coverage recomputed from the frozen inputs."""
 from pathlib import Path
 from decimal import Decimal, ROUND_HALF_UP
 import json, sys
@@ -35,4 +35,4 @@ Dataset & \#Docs & \#Q & Irrelevant Coverage & Answer-bearing Coverage \\
 \end{table}
 '''
 (HERE/'table_benign_coverage.tex').write_text(text,encoding='utf-8')
-print('Table 2 rebuilt from 300 frozen inputs and recorded corpus metadata.')
+print('Table 3 rebuilt from 300 frozen inputs and recorded corpus metadata.')

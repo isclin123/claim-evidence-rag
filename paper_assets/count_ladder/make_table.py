@@ -1,4 +1,4 @@
-"""Section 5.3 table: the poison-count ladder the figure draws, as numbers,
+"""Section 5.4.1 table: the poison-count ladder the figure draws, as numbers,
 with the paired contrast behind it. Generated from the same data/ as the
 figure so the two can never drift apart.
 
@@ -105,7 +105,7 @@ def main() -> None:
     (HERE / "table_checks.json").write_text(json.dumps({
         "table": OUT.name,
         "label": "tab:count_ladder",
-        "intended_location": "Section 5.3, beside the figure",
+        "intended_location": "Section 5.4.1, beside the figure",
         "rows": len(contrasts),
         "source_csv": ["data/ladder.csv", "data/contrasts.csv"],
         "source_csv_sha256": {

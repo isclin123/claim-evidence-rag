@@ -1,3 +1,3 @@
 # count_ladder
 
-See PAPER_MAP.md for manuscript placement. Data and numerical definitions are documented in REPRODUCIBILITY.md.
+See the paper-to-file table in the top-level README.md for manuscript placement. Data and numerical definitions are documented in REPRODUCIBILITY.md.

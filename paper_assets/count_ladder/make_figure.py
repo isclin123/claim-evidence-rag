@@ -1,4 +1,4 @@
-"""Poison-count figure for Section 5.3.
+"""Poison-count figure for Section 5.4.1.
 
 Answer-bearing benign context. The context always holds five documents: k of
 them are poisoned and come first, the remaining 5 - k are benign, so k = 5

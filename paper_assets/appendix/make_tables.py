@@ -1,4 +1,4 @@
-"""Rebuild Tables 6-26, Appendix A/C templates and Figure 11 from package data."""
+"""Rebuild Tables 7-27, Appendix A/C templates and Figure 12 from package data."""
 from pathlib import Path
 import collections, csv, gzip, hashlib, json, re, sys
 from decimal import Decimal, ROUND_HALF_UP
@@ -34,7 +34,7 @@ def signed(x): return ('+' if float(x)>=0 else '')+registered_f(x)
 def pv(x): return '$<0.001$' if float(x)<0.001 else f(float(x),3)
 def ci(lo,hi): return '$['+registered_f(lo)+', '+registered_f(hi)+']$'
 def exploratory_ci(lo,hi):
-    # Table 14 retains the manuscript's original half-even display (3.625 -> 3.62).
+    # Table 15 retains the manuscript's original half-even display (3.625 -> 3.62).
     return '$['+format(float(lo),'.2f')+', '+format(float(hi),'.2f')+']$'
 def row(xs): return ' & '.join(map(str,xs))+r' \\'
 def band(text, n): return r'\midrule'+'\n'+r'\multicolumn{'+str(n)+r'}{@{}l}{\textit{'+text+r'}} \\'+'\n'+r'\addlinespace[2pt]'
@@ -323,4 +323,4 @@ write('figures/commercial_ladder.tex',r'''\begin{figure}[!htbp]
 
 assert len(tables)==21
 write('checks.json',json.dumps(CHECKS,ensure_ascii=False,indent=2))
-print('Appendix: 21 tables, 7 templates, model identity CSV and Figure 11 rebuilt.')
+print('Appendix: 21 tables, 7 templates, model identity CSV and Figure 12 rebuilt.')

@@ -61,7 +61,7 @@ DIVERGING = LinearSegmentedColormap.from_list(
 ASR_LABEL = "ASR (%)"  # defined once in the setup section; captions carry the caveat
 DIFF_LABEL = "ASR difference (pp)"
 
-# Figure widths in inches. The ICLR 2027 style file sets a 5.5in text width.
+# Figure widths in inches.
 FULL_WIDTH = 5.5
 TWO_THIRDS = 3.6
 HALF_WIDTH = 2.7

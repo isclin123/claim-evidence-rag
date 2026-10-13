@@ -212,6 +212,6 @@ def main():
     if args.figures:
         subprocess.run([sys.executable,str(ROOT/'tools/rebuild_assets.py')],check=True)
         subprocess.run([sys.executable,str(ROOT/'tools/verify_paper_outputs.py')],check=True)
-    write_json(ROOT/'output/reproduction_report.json',{'passed':True,'local_responses':396000,'commercial_valid':1798,'commercial_blocked':2,'statistics_recomputed':args.statistics,'family_calibration':'Auxiliary p values and reduced-family simultaneous critical values are frozen inputs.','table_1':'excluded by author instruction'})
+    write_json(ROOT/'output/reproduction_report.json',{'passed':True,'local_responses':396000,'commercial_valid':1798,'commercial_blocked':2,'statistics_recomputed':args.statistics,'family_calibration':'Auxiliary p values and reduced-family simultaneous critical values are frozen inputs.'})
     print('PASS: manuscript numerical sources reproduced offline. Results are in output/.')
 if __name__=='__main__':main()

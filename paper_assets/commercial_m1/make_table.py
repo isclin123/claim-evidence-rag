@@ -1,4 +1,4 @@
-"""Section 5.5 main-text table: the three commercial services at k=1.
+"""Section 5.3 main-text table: the three commercial services at k=1.
 
 One row per service, so the section's whole result fits one float: what was
 queried, how often the target string appeared under each construction, and the
@@ -79,9 +79,7 @@ def build(rows: list) -> tuple:
 
 def render(lines: list) -> str:
     # One sentence: what the table is. Conditions, denominators, the blocked
-    # trial and the interval definition are carried by the Section 5.5 prose
-    # (user decision 2026-09-21). The six items the prose must discharge are
-    # listed in 01_outline/5_5_outline.zh.md section 4.2.
+    # trial and the interval definition are carried by the Section 5.3 prose.
     caption = (
         "Attack success rate on three black-box commercial services at one "
         "poisoned document placed first, in the answer-bearing benign context."
@@ -127,14 +125,14 @@ def main() -> None:
                               "but its paired difference is 25.4, not 25.7, because the "
                               "blocked question leaves 59 complete pairs. The header says "
                               "paired; the prose says why, since the caption is one "
-                              "sentence (user decision 2026-09-21)."),
+                              "sentence."),
         "caption_is_one_sentence": ("The reader needs six things that are no longer in the "
                                     "caption: the 60-question subset and one response per "
                                     "condition, the access dates, that cells are hits over "
                                     "valid responses, the blocked trial and its 59 "
                                     "denominator, what the interval is, and the pointer to "
-                                    "the appendix. The Section 5.5 prose must carry all "
-                                    "six; see 5_5_outline.zh.md section 4.2."),
+                                    "the appendix. The Section 5.3 prose must carry all "
+                                    "six."),
         "intervals_and_p_are_copied_not_recomputed": True,
         "not_in_this_table": ("pooled totals across k (they reuse the same 60 questions "
                               "five times and their /300 denominator collides with the "

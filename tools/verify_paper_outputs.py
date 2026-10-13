@@ -11,10 +11,12 @@ def main():
     args=ap.parse_args()
     inventory=json.loads((ROOT/'provenance/paper_items.json').read_text(encoding='utf-8'))
     items=inventory['items']
-    assert {x['item'] for x in items}=={f'Table {i}' for i in range(1,27)}|{f'Figure {i}' for i in range(1,14)}
+    assert {x['item'] for x in items}=={f'Table {i}' for i in range(1,28)}|{f'Figure {i}' for i in range(1,15)}
     assert len({x['item'] for x in items})==len(items)
-    excluded={x['item'] for x in items if x['status']=='excluded_by_author'}
-    assert excluded=={'Table 1','Figure 2'}
+    excluded={x['item'] for x in items if x['status']=='not_included'}
+    assert excluded=={'Table 1','Figure 1','Figure 3'}
+    # Table 2 is checked by preliminary/tools/verify.py and reproduce.py.
+    assert {x['item'] for x in items if x['status']=='preliminary'}=={'Table 2'}
     checked=[];render_differences=[]
     for item in items:
         if 'path' not in item:continue
@@ -33,7 +35,7 @@ def main():
         checked.append(item['item'])
     assert len(checked)==37
     report={'passed':True,'included_tables':25,'result_figures':11,'illustrative_figures':1,
-            'excluded':sorted(excluded),'checked':checked,'inventory_only':args.inventory_only,
+            'not_included':sorted(excluded),'checked':checked,'inventory_only':args.inventory_only,
             'render_byte_differences':render_differences}
     if not args.inventory_only:
         (ROOT/'output/paper_outputs.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')

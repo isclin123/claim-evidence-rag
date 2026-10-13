@@ -1,4 +1,4 @@
-"""Position figure for Section 5.4.
+"""Position figure for Section 5.4.2.
 
 Answer-bearing benign context, five documents in the context throughout.
 
